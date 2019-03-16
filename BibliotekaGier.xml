@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BibliotekaGier SYSTEM "BibliotekaGier.dtd" >
 <?xml-stylesheet  type="text/css" href="styl.css" ?>
-<!DOCTYPE BibliotekaGier SYSTEM "BibliotekaGiers.dtd" >
-
+ 
 <BibliotekaGier>
     <AutorzyDokumentu>
         <Autor>
@@ -10,7 +10,7 @@
             <NumerIndeksu>210239</NumerIndeksu>
         </Autor>
         <Autor>
-            <Imiię>Adam</Imiię>
+            <Imię>Adam</Imię>
             <Nazwisko>Lindner</Nazwisko>
             <NumerIndeksu>210253</NumerIndeksu>
         </Autor>
@@ -98,7 +98,7 @@
             <Wydawca>Warner Bros</Wydawca>
             <Producent>NetherRealm Studios</Producent>
         </Gra>
-        <Gra IdGry="G15" RokWydania="2011" Gatunek="Logiczna" Platforma="X360" PEGI="7" >
+        <Gra IdGry="G15" RokWydania="2011" Gatunek="Logiczne" Platforma="X360" PEGI="7" >
             <Tytuł>Portal 2</Tytuł>
             <Wydawca>ElectronicArts</Wydawca>
             <Producent>Valve Software</Producent>
@@ -180,160 +180,96 @@
         <Recenzja IdGry="G1" IdGracza="Gr1"> 
             <Tytuł>Super gra</Tytuł>      
             <TreśćRecenzji>Gra jest super duper.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>8</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Ocena Wartość="8"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G2" IdGracza="Gr3">   
             <Tytuł>Nic tylko jezdzić</Tytuł>      
             <TreśćRecenzji>Gra bardzo fajna i relaksująca, sporo jeżdżenia, sporo dostarczania towarów. W sam raz by siąść, odpocząć i przejechać jedną czy dwie trasy podczas sesji.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>16</Dzień>
-                <Miesiąc>3</Miesiąc>
-                <Rok>2018</Rok>
-            </DataRecenzji>
-            <Ocena>7</Ocena>
+            <DataRecenzji Dzień="16" Miesiąc="3" Rok="2018" />
+            <Ocena Wartość="7"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G2" IdGracza="Gr10">   
             <Tytuł>Bohaterowie świata</Tytuł>      
             <TreśćRecenzji>Mój wujek jest lekarzem i spytałem go kiedyś jak to jest być bohaterem, odpowiedzial że nie wie, bo nie jest kierowcą tira.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>16</Dzień>
-                <Miesiąc>3</Miesiąc>
-                <Rok>2018</Rok>
-            </DataRecenzji>
-            <Ocena>9</Ocena>
+            <DataRecenzji Dzień="16" Miesiąc="3" Rok="2018" />
+            <Ocena Wartość="9"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G3" IdGracza="Gr2">  
             <Tytuł>Rewelacja!</Tytuł>    
             <TreśćRecenzji>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>10</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Ocena Wartość="10"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G14" IdGracza="Gr5">       
             <Tytuł>Mogło być lepiej!</Tytuł>    
             <TreśćRecenzji>Zwykły średniak, w dzisiejszych czasach wystarczy zrobić EX'a + ładna grafika + open world i gierka na start ma 8/10. Zawiodłem się, bo ludzie hypowali gierkę mocno wg mnie to max 6/10</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>4</Dzień>
-                <Miesiąc>1</Miesiąc>
-                <Rok>2018</Rok>
-            </DataRecenzji>
-            <Ocena>5</Ocena>
+            <DataRecenzji Dzień="4" Miesiąc="1" Rok="2018" />
+            <Ocena Wartość="5"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G5" IdGracza="Gr5">
             <Tytuł>Płotka!</Tytuł>    
             <TreśćRecenzji>Dużo bugów, spadałem z konia. Słaba mechanika.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2017</Rok>
-            </DataRecenzji>
-            <Ocena>3</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2017" />
+            <Ocena Wartość="3"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G6" IdGracza="Gr6">       
             <Tytuł>Grafika nie zachwyca!</Tytuł>                
             <TreśćRecenzji>Nie podobala mi się. Grafika lepsza w Minecrafcie.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>2</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Ocena Wartość="2"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G12" IdGracza="Gr1">       
             <Tytuł>Za trudna!</Tytuł>    
             <TreśćRecenzji>Grałem na łatwym a i tak nie mogłem przejść początkowych poziomów.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>4</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Ocena Wartość="4"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G7" IdGracza="Gr10">     
             <Tytuł>Jaka jest miara lepszości?</Tytuł>    
             <TreśćRecenzji>Nie ocenie, bo nie ma miary.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
         </Recenzja>
         <Recenzja IdGry="G8" IdGracza="Gr9">       
             <Tytuł>Pozdrawiam Andrzej!</Tytuł>    
             <TreśćRecenzji>Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej. </TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>10</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Ocena Wartość="10"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G14" IdGracza="Gr10">
             <Tytuł>Zagralbym jeszcze raz.</Tytuł>    
             <TreśćRecenzji>Grało mi się fajnie ale nie wiem na ile bo nie znam miary.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>7</Dzień>
-                <Miesiąc>12</Miesiąc>
-                <Rok>2010</Rok>
-            </DataRecenzji>
-            <Ocena>9</Ocena>
+            <DataRecenzji Dzień="7" Miesiąc="12" Rok="2010" />
+            <Ocena Wartość="9"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G6" IdGracza="Gr6">
             <Tytuł> Cały czas tłukłem! Całe noce całe dnie!</Tytuł>    
             <TreśćRecenzji>Zmarnowałem 100 godzin życia, nie grajcie w te gre.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>17</Dzień>
-                <Miesiąc>8</Miesiąc>
-                <Rok>2012</Rok>
-            </DataRecenzji>
-            <Ocena>5</Ocena>
+            <DataRecenzji Dzień="17" Miesiąc="8" Rok="2012" />
+            <Ocena Wartość="5"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G17" IdGracza="Gr9">       
             <Tytuł>Zniszczyła mi życie.</Tytuł>
             <TreśćRecenzji>Rzuciłem studia żeby wbijać wyższy level. Nie załuje!</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>1</Dzień>
-                <Miesiąc>2</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>9</Ocena>
+            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Ocena Wartość="9"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G18" IdGracza="Gr5">   
             <Tytuł>Poluruje na orkach CH4</Tytuł>
             <TreśćRecenzji>Nietstey mało serwerów. Dodawajcie mnie w grze nick: LurkaSzamanka! </TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>5</Dzień>
-                <Miesiąc>9</Miesiąc>
-                <Rok>2019</Rok>
-            </DataRecenzji>
-            <Ocena>5</Ocena>
+            <DataRecenzji Dzień="5" Miesiąc="9" Rok="2019" />
+            <Ocena Wartość="5"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G15" IdGracza="Gr10">  
             <Tytuł> I to ma być gra AAA?</Tytuł>       
             <TreśćRecenzji>Napisałbym lepszą w tydzień.</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>16</Dzień>
-                <Miesiąc>6</Miesiąc>
-                <Rok>2014</Rok>
-            </DataRecenzji>
-            <Ocena>1</Ocena>
+            <DataRecenzji Dzień="16" Miesiąc="6" Rok="2014" />
+            <Ocena Wartość="1"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G13" IdGracza="Gr10">
             <Tytuł>Niesamowita</Tytuł>    
             <TreśćRecenzji>Niewymierna</TreśćRecenzji>
-            <DataRecenzji>
-                <Dzień>6</Dzień>
-                <Miesiąc>12</Miesiąc>
-                <Rok>2014</Rok>
-            </DataRecenzji>
+            <DataRecenzji Dzień="6" Miesiąc="12" Rok="2014" />
         </Recenzja>
     </Recenzje>
 

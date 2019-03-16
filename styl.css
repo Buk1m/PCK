@@ -295,13 +295,9 @@ Recenzja > DataRecenzji{
     color: rgba(250, 235, 215, 0.349);
 }
 
-DataRecenzji > Miesiąc:before, Rok:before{
-    content: "-";
-    margin: 0px 2px;
-}
 
 Recenzja > DataRecenzji:before{
-    content: "Data: ";
+    content: "Data: " attr(Dzień) "-" attr(Miesiąc) "-" attr(Rok);
     margin: 0px 3px;
 
 }
@@ -313,7 +309,7 @@ Recenzja > Ocena{
 }
 
 Recenzja > Ocena:after{
-    content: "/10";
+    content: attr(Wartość) "/10";
 }
 
 @media screen and (max-width: 800px) {
