@@ -242,8 +242,6 @@ Recenzje:before{
 
 Recenzja:hover{
     transform: scale(1.01);
-    transition:cubic-bezier(.17,.67,.83,.67)  0.3s;
-
 }
 
 Recenzja{
@@ -255,7 +253,6 @@ Recenzja{
     background: rgb(61, 61, 68);
     border-bottom: 5px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    transition: transform cubic-bezier(.17,.67,.83,.67) 0.3s;
 }
 
 Recenzja:last-child{
