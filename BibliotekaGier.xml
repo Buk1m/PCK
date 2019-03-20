@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE BibliotekaGier SYSTEM "BibliotekaGier.dtd" >
 <?xml-stylesheet  type="text/css" href="styl.css" ?>
- 
+
 <BibliotekaGier>
     <AutorzyDokumentu>
         <Autor>
@@ -22,114 +22,143 @@
             <Wydawca>2k Games</Wydawca>
             <Producent>Irrational Games</Producent>
             <Opis>Gra akcji z widokiem z perspektywy pierwszej osoby (FPP), będąca spin-offem serii BioShock. Tytuł wyprodukowany został przez studio deweloperskie Irrational Games przy wsparciu wydawniczym firmy 2K Games.</Opis>
+            <ŚredniaOcena>9.6</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G2" RokWydania="2013" Gatunek="FPS" Platforma="PC" PEGI="18">
             <Tytuł>System Shock 2</Tytuł>
             <Wydawca>EA Games</Wydawca>
             <Producent>Irrational Games</Producent>
             <Opis>Kontynuacja wysoko ocenianej gry akcji z elementami RPG, łączącej cechy klasycznego science fiction ze stylistyką cyberpunkową. Za jej powstanie odpowiadają ponownie deweloperzy ze studia Looking Glass, wspierani tym razem dodatkowo przez ekipę Irrational Games.</Opis>
+            <ŚredniaOcena>6.2</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G3" RokWydania="2017" Gatunek="Akcji" Platforma="PS4" >
             <Tytuł>Horizon Zero Dawn</Tytuł>
             <Wydawca>Sony Interactive </Wydawca>
             <Producent>Guerrilla Games</Producent>
             <Opis>Trzecioosobowa gra akcji z elementami RPG, za której powstanie odpowiada znana z serii Killzone ekipa Guerrilla Games.</Opis>
+            <ŚredniaOcena>7.7</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G4" RokWydania="2011" Gatunek="RPG" Platforma="PC" >
             <Tytuł>The Elder Scrolls V: Skyrim</Tytuł>
             <Wydawca>Bethesda</Wydawca>
             <Producent>Bethesda</Producent>
             <Opis>Zrealizowana z dużym rozmachem gra action-RPG, będąca piątą częścią popularnego cyklu The Elder Scrolls. Produkcja studia Bethesda Softworks pozwala graczom ponownie przenieść się do fantastycznego świata Nirn.</Opis>
+            <ŚredniaOcena>8.1</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G5" RokWydania="2018" Gatunek="Platformówka" Platforma="Switch">
             <Tytuł>Hollow Knight</Tytuł>
             <Wydawca>Team Cherry</Wydawca>
             <Producent>Team Cherry</Producent>
             <Opis>Należąca do gatunku metroidvanii dwuwymiarowa platformówka autorstwa niezależnego Team Cherry. Akcja Hollow Knight przenosi nas do fantastycznego świata: podziemi, jakie rozciągają się pod miasteczkiem Dirtmouth.</Opis>
+            <ŚredniaOcena>6.2</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G6" RokWydania="2012" Gatunek="FPS" Platforma="X360" >
             <Tytuł>Halo 4</Tytuł>
             <Wydawca>Microsoft Sudios</Wydawca>
             <Producent>343Industries</Producent>
+            <ŚredniaOcena>3.6</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G7" RokWydania="2018" Gatunek="Akcji" Platforma="XONE" >
             <Tytuł>Red Dead Redemption 2</Tytuł>
             <Wydawca>RockstarGames</Wydawca>
             <Producent>RockstarGames</Producent>
             <Opis>Trzecia część serii Red Dead, a zarazem prequel bestsellerowego Red Dead Redemption.</Opis>
+            <ŚredniaOcena>1.6</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G8" RokWydania="2011" Gatunek="Wyścigi" Platforma="3DS" >
             <Tytuł>Mario Kart 7</Tytuł>
             <Wydawca>Nintendo</Wydawca>
             <Producent>Nintendo</Producent>
+            <Producent>Bandai</Producent>
+            <ŚredniaOcena>4.3</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G9" RokWydania="2011" Gatunek="RPG" Platforma="PS3" PEGI="12">
             <Tytuł>Mass Effect 2</Tytuł>
             <Wydawca>Electronic Arts</Wydawca>
             <Producent>BioWare</Producent>
             <Opis>Kontynuacja bestsellerowej gry RPG akcji studia BioWare, opowiadająca o dalszych losach komandora Sheparda. Po tym, jak Normandia pada ofiarą ataku insektoidalnej rasy Zbieraczy, jej załoga zostaje rozproszona, zaś sam komandor ginie.</Opis>
+            <ŚredniaOcena>10.0</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G10" RokWydania="2009" Gatunek="Bijatyka" Platforma="PSP" >
             <Tytuł>Tekken 6</Tytuł>
             <Wydawca>Bandai Namco</Wydawca>
             <Producent>Bandai Namco</Producent>
             <Opis>Kolejna odsłona popularnej bijatyki, a zarazem pierwsza, która została wydana nie tylko na konsoli z rodziny PlayStation. Fabuła Tekkena 6 nawiązuje do wydarzeń z części piątej.</Opis>
+            <ŚredniaOcena>5.5</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G11" RokWydania="2015" Gatunek="RPG" Platforma="PS4" >
             <Tytuł>Bloodborne</Tytuł>
             <Wydawca>Sony Interactive</Wydawca>
             <Producent>From Software</Producent>
             <Opis>Klasyczne RPG akcji, stanowiące duchową kontynuację bestsellerowej serii Dark Souls oraz jej poprzedniczki, Demon’s Souls. Gra została opracowana przez twórcę wspomnianych produkcji – Hidetakiego Miyazakiego i jego studio From Software.</Opis>
+            <ŚredniaOcena>7.1</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G12" RokWydania="2018" Gatunek="Akcji" Platforma="PS4" >
             <Tytuł>God of War</Tytuł>
             <Wydawca>Sony Interactive</Wydawca>
             <Producent>Sony Interactive</Producent>
             <Opis>Czwarta pełnoprawna odsłona słynnej serii trzecioosobowych gier akcji w konwencji hack-and-slash, stanowiącej od lat jeden z najważniejszych tytułów ekskluzywnych kolejnych generacji konsol firmy Sony.</Opis>
+            <ŚredniaOcena>8.5</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G13" RokWydania="2015" Gatunek="RPG" Platforma="PC" >
             <Tytuł>Wiedźmin 3: Dziki Gon</Tytuł>
             <Wydawca>CDP</Wydawca>
             <Producent>CD Projekt RED</Producent>
             <Opis>Gra action RPG, stanowiąca trzecią część przygód Geralta z Rivii. Podobnie jak we wcześniejszych odsłonach cyklu, Wiedźmin 3: Dziki Gon bazuje na motywach twórczości literackiej Andrzeja Sapkowskiego, jednak nie jest bezpośrednią adaptacją żadnej z jego książek.</Opis>
+            <ŚredniaOcena>6.9</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G14" RokWydania="2019" Gatunek="Bijatyki" Platforma="XONE" >
             <Tytuł>Mortal Kombat 11</Tytuł>
             <Wydawca>Warner Bros</Wydawca>
             <Producent>NetherRealm Studios</Producent>
+            <ŚredniaOcena>2.1</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G15" RokWydania="2011" Gatunek="Logiczne" Platforma="X360" PEGI="7" >
             <Tytuł>Portal 2</Tytuł>
             <Wydawca>ElectronicArts</Wydawca>
             <Producent>Valve Software</Producent>
+            <ŚredniaOcena>3.7</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G16" RokWydania="2004" Gatunek="FPS" Platforma="PC" >
             <Tytuł>Half Life 2</Tytuł>
             <Wydawca>Sierra</Wydawca>
             <Producent>Valve Software</Producent>
+            <Producent>Entertaiment Software</Producent>
             <Opis>Kontynuacja bestsellerowej produkcji studia Valve Software, która w 1998 roku wyznaczyła nowe standardy w gatunku strzelanin FPS.</Opis>
+            <ŚredniaOcena>9.1</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G17" RokWydania="2004" Gatunek="MMO" Platforma="PC" >
             <Tytuł>World of Warcraft</Tytuł>
             <Wydawca>Blizzard Entertaiment</Wydawca>
             <Producent>Blizzard Entertaiment</Producent>
             <Opis>Epicka gra z gatunku MMORPG, której akcję osadzono w uniwersum znanym z kultowej serii RTS-ów fantasy firmy Blizzard.</Opis>
+            <ŚredniaOcena>4.4</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G18" RokWydania="2007" Gatunek="MMO" Platforma="PC" PEGI="3" >
             <Tytuł>Metin 2</Tytuł>
             <Wydawca>Gameforge</Wydawca>
             <Producent>SilverBirch Studios</Producent>
             <Opis>Metin2 to kolejny przedstawiciel gatunku darmowych gier MMORPG, niewymagających uiszczania comiesięcznego abonamentu.</Opis>
+            <ŚredniaOcena>10.0</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G19" RokWydania="2019" Gatunek="Symulacje" Platforma="PC" >
             <Tytuł>Euro Track Simulator</Tytuł>
             <Wydawca>SCS Software</Wydawca>
             <Producent>Rondomedia</Producent>
+            <ŚredniaOcena>6.6</ŚredniaOcena>
         </Gra>
         <Gra IdGry="G20" RokWydania="2019" Gatunek="Symulacje" Platforma="PC" >
             <Tytuł>Assasins Creed - Black Flag</Tytuł>
             <Wydawca>Ubisoft</Wydawca>
             <Producent>Ubisoft</Producent>
+            <ŚredniaOcena>6.6</ŚredniaOcena>
+        </Gra>
+        <Gra IdGry="G21" RokWydania="2019" Gatunek="Przygodowe" Platforma="PC" >
+            <Tytuł>Fuarkolandia</Tytuł>
+            <Wydawca>Szkopiński Games</Wydawca>
+            <Wydawca>JolaSupport Games</Wydawca>
+            <Producent>Szkopinski INC.</Producent>
+            <ŚredniaOcena>10.0</ŚredniaOcena>
         </Gra>
     </ListaGier>
 
@@ -172,7 +201,7 @@
         </Gracz>
         <Gracz IdGracza="Gr10">
         <Imię>Mariusz</Imię>
-        <PseudonimGracza>Postol</PseudonimGracza>
+        <PseudonimGracza>Doktor</PseudonimGracza>
         </Gracz>
     </Gracze>
 
@@ -254,7 +283,7 @@
             <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
             <Ocena Wartość="9"></Ocena>
         </Recenzja>
-        <Recenzja IdGry="G18" IdGracza="Gr5">   
+        <Recenzja IdGry="G18" IdGracza="Gr10">   
             <Tytuł>Poluruje na orkach CH4</Tytuł>
             <TreśćRecenzji>Nietstey mało serwerów. Dodawajcie mnie w grze nick: LurkaSzamanka! </TreśćRecenzji>
             <DataRecenzji Dzień="5" Miesiąc="9" Rok="2019" />

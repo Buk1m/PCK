@@ -12,6 +12,8 @@ BibliotekaGier:before, ListaGier:before, Gracze:before, Recenzje:before{
 }
 
 BibliotekaGier{
+    max-width: 1200px;
+    margin:auto;
     padding:20px 50px;
     background: #1A1A1D;
     font-family: 'Roboto', sans-serif;
@@ -57,21 +59,21 @@ Autor{
 Autor:after{
     color:rgb(82, 82, 83);
     content: attr(numerindeksu);
+    display:block;
 }
 
 ListaGier:before{
- content:"ListaGier"
-
+    content:"ListaGier";
+    display: inline;
 }
 
 ListaGier {
-display:flex;
-flex-direction: column;
+    display:flex;
+    flex-direction: column;
 }
 
 Gra{
     background: rgb(39, 39, 44);
-    display: block;
     padding:20px;
     position: relative;
     display: flex;
@@ -120,6 +122,16 @@ Gra > Opis{
 Gra > Opis:before{
     color:  rgb(233, 163, 58);
     content: "Opis: ";
+}
+
+Gra > ŚredniaOcena:before{
+    color:  rgb(233, 163, 58);
+    content: "Średnia ocena: ";
+}
+
+Gra > ŚredniaOcena:after{
+    color:  rgb(7, 207, 140);
+    content: "/10.0";
 }
 
 Gra:last-child{
