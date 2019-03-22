@@ -89,7 +89,7 @@ Gra:hover {
   transition: 0.4s;
 }
 
-Gra > Tytuł {
+Gra > Tytul {
   color: #950740;
   font-size: 1.5em;
   font-weight: bold;
@@ -127,12 +127,12 @@ Gra > Opis:before {
   content: "Opis: ";
 }
 
-Gra > ŚredniaOcena:before {
+Gra > sredniaOcena:before {
   color: rgb(233, 163, 58);
-  content: "Średnia ocena: ";
+  content: "srednia ocena: ";
 }
 
-Gra > ŚredniaOcena:after {
+Gra > sredniaOcena:after {
   color: rgb(7, 207, 140);
   content: "/10.0";
 }
@@ -270,14 +270,14 @@ Recenzja:before {
   color: rgba(250, 235, 215, 0.281);
 }
 
-Recenzja > Tytuł {
+Recenzja > Tytul {
   color: #c3073f;
   font-size: 2em;
   font-weight: bolder;
 }
 
-Recenzja > TreśćRecenzji:before {
-  content: "Treść recenzji:";
+Recenzja > TrescRecenzji:before {
+  content: "Tresc recenzji:";
   font-size: 0.8;
   color: rgb(233, 201, 58);
   position: absolute;
@@ -285,7 +285,7 @@ Recenzja > TreśćRecenzji:before {
   left: 0;
 }
 
-Recenzja > TreśćRecenzji {
+Recenzja > TrescRecenzji {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -306,7 +306,7 @@ Recenzja > DataRecenzji {
 }
 
 Recenzja > DataRecenzji:before {
-  content: "Data: " attr(Dzień) "-" attr(Miesiąc) "-" attr(Rok);
+  content: "Data: " attr(Dzien) "-" attr(Miesiąc) "-" attr(Rok);
   margin: 0px 3px;
 }
 
@@ -317,18 +317,28 @@ Recenzja > Ocena {
 }
 
 Recenzja > Ocena:after {
-  content: attr(Wartość) "/10";
+  content: attr(Wartosc) "/10";
 }
 
 Stopka {
   background: rgb(39, 39, 44);
   padding: 30px;
-  display: inline;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 Stopka > OstatniaEdycja:before {
-    content: "Ostatnia edycja: " attr(Data);
+  content: "Ostatnia edycja: " attr(Data);
+}
+
+Stopka > Logo {
+  display: block;
+  width: 300px;
+  height: 350px;
+  margin:auto;
+  background-image: url(pl-logo.png);
+  background-image: 
 }
 
 @media screen and (max-width: 800px) {
@@ -352,10 +362,10 @@ Stopka > OstatniaEdycja:before {
     min-width: 260px;
     margin: 15px 10px;
   }
-  Gra > Tytuł {
+  Gra > Tytul {
     margin-top: 20px;
   }
-  Recenzja > Tytuł {
+  Recenzja > Tytul {
     margin-top: 20px;
   }
   Recenzja {

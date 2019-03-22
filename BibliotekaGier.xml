@@ -5,12 +5,12 @@
 <BibliotekaGier>
     <AutorzyDokumentu>
         <Autor>
-            <Imię>Bartosz</Imię>
+            <Imie>Bartosz</Imie>
             <Nazwisko>Kudra</Nazwisko>
             <NumerIndeksu>210239</NumerIndeksu>
         </Autor>
         <Autor>
-            <Imię>Adam</Imię>
+            <Imie>Adam</Imie>
             <Nazwisko>Lindner</Nazwisko>
             <NumerIndeksu>210253</NumerIndeksu>
         </Autor>
@@ -18,290 +18,291 @@
 
     <ListaGier>
         <Gra IdGry="G1" RokWydania="1999" Gatunek="Horror" Platforma="PC">
-            <Tytuł>BioShock Infinite</Tytuł>
+            <Tytul>BioShock Infinite</Tytul>
             <Wydawca>2k Games</Wydawca>
             <Producent>Irrational Games</Producent>
-            <Opis>Gra akcji z widokiem z perspektywy pierwszej osoby (FPP), będąca spin-offem serii BioShock. Tytuł wyprodukowany został przez studio deweloperskie Irrational Games przy wsparciu wydawniczym firmy 2K Games.</Opis>
-            <ŚredniaOcena>9.6</ŚredniaOcena>
+            <Opis>Gra akcji z widokiem z perspektywy pierwszej osoby (FPP), bedaca spin-offem serii BioShock. Tytul wyprodukowany zostal przez studio deweloperskie Irrational Games przy wsparciu wydawniczym firmy 2K Games.</Opis>
+            <sredniaOcena>9.6</sredniaOcena>
         </Gra>
         <Gra IdGry="G2" RokWydania="2013" Gatunek="FPS" Platforma="PC" PEGI="18">
-            <Tytuł>System Shock 2</Tytuł>
+            <Tytul>System Shock 2</Tytul>
             <Wydawca>EA Games</Wydawca>
             <Producent>Irrational Games</Producent>
-            <Opis>Kontynuacja wysoko ocenianej gry akcji z elementami RPG, łączącej cechy klasycznego science fiction ze stylistyką cyberpunkową. Za jej powstanie odpowiadają ponownie deweloperzy ze studia Looking Glass, wspierani tym razem dodatkowo przez ekipę Irrational Games.</Opis>
-            <ŚredniaOcena>6.2</ŚredniaOcena>
+            <Opis>Kontynuacja wysoko ocenianej gry akcji z elementami RPG, laczacej cechy klasycznego science fiction ze stylistyka cyberpunkowa. Za jej powstanie odpowiadaja ponownie deweloperzy ze studia Looking Glass, wspierani tym razem dodatkowo przez ekipe Irrational Games.</Opis>
+            <sredniaOcena>6.2</sredniaOcena>
         </Gra>
         <Gra IdGry="G3" RokWydania="2017" Gatunek="Akcji" Platforma="PS4" >
-            <Tytuł>Horizon Zero Dawn</Tytuł>
+            <Tytul>Horizon Zero Dawn</Tytul>
             <Wydawca>Sony Interactive </Wydawca>
             <Producent>Guerrilla Games</Producent>
-            <Opis>Trzecioosobowa gra akcji z elementami RPG, za której powstanie odpowiada znana z serii Killzone ekipa Guerrilla Games.</Opis>
-            <ŚredniaOcena>7.7</ŚredniaOcena>
+            <Opis>Trzecioosobowa gra akcji z elementami RPG, za ktorej powstanie odpowiada znana z serii Killzone ekipa Guerrilla Games.</Opis>
+            <sredniaOcena>7.7</sredniaOcena>
         </Gra>
         <Gra IdGry="G4" RokWydania="2011" Gatunek="RPG" Platforma="PC" >
-            <Tytuł>The Elder Scrolls V: Skyrim</Tytuł>
+            <Tytul>The Elder Scrolls V: Skyrim</Tytul>
             <Wydawca>Bethesda</Wydawca>
             <Producent>Bethesda</Producent>
-            <Opis>Zrealizowana z dużym rozmachem gra action-RPG, będąca piątą częścią popularnego cyklu The Elder Scrolls. Produkcja studia Bethesda Softworks pozwala graczom ponownie przenieść się do fantastycznego świata Nirn.</Opis>
-            <ŚredniaOcena>8.1</ŚredniaOcena>
+            <Opis>Zrealizowana z dużym rozmachem gra action-RPG, bedaca piata czescia popularnego cyklu The Elder Scrolls. Produkcja studia Bethesda Softworks pozwala graczom ponownie przeniesc sie do fantastycznego swiata Nirn.</Opis>
+            <sredniaOcena>8.1</sredniaOcena>
         </Gra>
-        <Gra IdGry="G5" RokWydania="2018" Gatunek="Platformówka" Platforma="Switch">
-            <Tytuł>Hollow Knight</Tytuł>
+        <Gra IdGry="G5" RokWydania="2018" Gatunek="Platformowka" Platforma="Switch">
+            <Tytul>Hollow Knight</Tytul>
             <Wydawca>Team Cherry</Wydawca>
             <Producent>Team Cherry</Producent>
-            <Opis>Należąca do gatunku metroidvanii dwuwymiarowa platformówka autorstwa niezależnego Team Cherry. Akcja Hollow Knight przenosi nas do fantastycznego świata: podziemi, jakie rozciągają się pod miasteczkiem Dirtmouth.</Opis>
-            <ŚredniaOcena>6.2</ŚredniaOcena>
+            <Opis>Należaca do gatunku metroidvanii dwuwymiarowa platformowka autorstwa niezależnego Team Cherry. Akcja Hollow Knight przenosi nas do fantastycznego swiata: podziemi, jakie rozciagaja sie pod miasteczkiem Dirtmouth.</Opis>
+            <sredniaOcena>6.2</sredniaOcena>
         </Gra>
         <Gra IdGry="G6" RokWydania="2012" Gatunek="FPS" Platforma="X360" >
-            <Tytuł>Halo 4</Tytuł>
+            <Tytul>Halo 4</Tytul>
             <Wydawca>Microsoft Sudios</Wydawca>
             <Producent>343Industries</Producent>
-            <ŚredniaOcena>3.6</ŚredniaOcena>
+            <sredniaOcena>3.6</sredniaOcena>
         </Gra>
         <Gra IdGry="G7" RokWydania="2018" Gatunek="Akcji" Platforma="XONE" >
-            <Tytuł>Red Dead Redemption 2</Tytuł>
+            <Tytul>Red Dead Redemption 2</Tytul>
             <Wydawca>RockstarGames</Wydawca>
             <Producent>RockstarGames</Producent>
-            <Opis>Trzecia część serii Red Dead, a zarazem prequel bestsellerowego Red Dead Redemption.</Opis>
-            <ŚredniaOcena>1.6</ŚredniaOcena>
+            <Opis>Trzecia czesc serii Red Dead, a zarazem prequel bestsellerowego Red Dead Redemption.</Opis>
+            <sredniaOcena>1.6</sredniaOcena>
         </Gra>
-        <Gra IdGry="G8" RokWydania="2011" Gatunek="Wyścigi" Platforma="3DS" >
-            <Tytuł>Mario Kart 7</Tytuł>
+        <Gra IdGry="G8" RokWydania="2011" Gatunek="Wyscigi" Platforma="3DS" >
+            <Tytul>Mario Kart 7</Tytul>
             <Wydawca>Nintendo</Wydawca>
             <Producent>Nintendo</Producent>
             <Producent>Bandai</Producent>
-            <ŚredniaOcena>4.3</ŚredniaOcena>
+            <sredniaOcena>4.3</sredniaOcena>
         </Gra>
         <Gra IdGry="G9" RokWydania="2011" Gatunek="RPG" Platforma="PS3" PEGI="12">
-            <Tytuł>Mass Effect 2</Tytuł>
+            <Tytul>Mass Effect 2</Tytul>
             <Wydawca>Electronic Arts</Wydawca>
             <Producent>BioWare</Producent>
-            <Opis>Kontynuacja bestsellerowej gry RPG akcji studia BioWare, opowiadająca o dalszych losach komandora Sheparda. Po tym, jak Normandia pada ofiarą ataku insektoidalnej rasy Zbieraczy, jej załoga zostaje rozproszona, zaś sam komandor ginie.</Opis>
-            <ŚredniaOcena>10.0</ŚredniaOcena>
+            <Opis>Kontynuacja bestsellerowej gry RPG akcji studia BioWare, opowiadajaca o dalszych losach komandora Sheparda. Po tym, jak Normandia pada ofiara ataku insektoidalnej rasy Zbieraczy, jej zaloga zostaje rozproszona, zas sam komandor ginie.</Opis>
+            <sredniaOcena>10.0</sredniaOcena>
         </Gra>
         <Gra IdGry="G10" RokWydania="2009" Gatunek="Bijatyka" Platforma="PSP" >
-            <Tytuł>Tekken 6</Tytuł>
+            <Tytul>Tekken 6</Tytul>
             <Wydawca>Bandai Namco</Wydawca>
             <Producent>Bandai Namco</Producent>
-            <Opis>Kolejna odsłona popularnej bijatyki, a zarazem pierwsza, która została wydana nie tylko na konsoli z rodziny PlayStation. Fabuła Tekkena 6 nawiązuje do wydarzeń z części piątej.</Opis>
-            <ŚredniaOcena>5.5</ŚredniaOcena>
+            <Opis>Kolejna odslona popularnej bijatyki, a zarazem pierwsza, ktora zostala wydana nie tylko na konsoli z rodziny PlayStation. Fabula Tekkena 6 nawiazuje do wydarzen z czesci piatej.</Opis>
+            <sredniaOcena>5.5</sredniaOcena>
         </Gra>
         <Gra IdGry="G11" RokWydania="2015" Gatunek="RPG" Platforma="PS4" >
-            <Tytuł>Bloodborne</Tytuł>
+            <Tytul>Bloodborne</Tytul>
             <Wydawca>Sony Interactive</Wydawca>
             <Producent>From Software</Producent>
-            <Opis>Klasyczne RPG akcji, stanowiące duchową kontynuację bestsellerowej serii Dark Souls oraz jej poprzedniczki, Demon’s Souls. Gra została opracowana przez twórcę wspomnianych produkcji – Hidetakiego Miyazakiego i jego studio From Software.</Opis>
-            <ŚredniaOcena>7.1</ŚredniaOcena>
+            <Opis>Klasyczne RPG akcji, stanowiace duchowa kontynuacje bestsellerowej serii Dark Souls oraz jej poprzedniczki, Demon’s Souls. Gra zostala opracowana przez tworce wspomnianych produkcji – Hidetakiego Miyazakiego i jego studio From Software.</Opis>
+            <sredniaOcena>7.1</sredniaOcena>
         </Gra>
         <Gra IdGry="G12" RokWydania="2018" Gatunek="Akcji" Platforma="PS4" >
-            <Tytuł>God of War</Tytuł>
+            <Tytul>God of War</Tytul>
             <Wydawca>Sony Interactive</Wydawca>
             <Producent>Sony Interactive</Producent>
-            <Opis>Czwarta pełnoprawna odsłona słynnej serii trzecioosobowych gier akcji w konwencji hack-and-slash, stanowiącej od lat jeden z najważniejszych tytułów ekskluzywnych kolejnych generacji konsol firmy Sony.</Opis>
-            <ŚredniaOcena>8.5</ŚredniaOcena>
+            <Opis>Czwarta pelnoprawna odslona slynnej serii trzecioosobowych gier akcji w konwencji hack-and-slash, stanowiacej od lat jeden z najważniejszych tytulow ekskluzywnych kolejnych generacji konsol firmy Sony.</Opis>
+            <sredniaOcena>8.5</sredniaOcena>
         </Gra>
         <Gra IdGry="G13" RokWydania="2015" Gatunek="RPG" Platforma="PC" >
-            <Tytuł>Wiedźmin 3: Dziki Gon</Tytuł>
+            <Tytul>Wiedźmin 3: Dziki Gon</Tytul>
             <Wydawca>CDP</Wydawca>
             <Producent>CD Projekt RED</Producent>
-            <Opis>Gra action RPG, stanowiąca trzecią część przygód Geralta z Rivii. Podobnie jak we wcześniejszych odsłonach cyklu, Wiedźmin 3: Dziki Gon bazuje na motywach twórczości literackiej Andrzeja Sapkowskiego, jednak nie jest bezpośrednią adaptacją żadnej z jego książek.</Opis>
-            <ŚredniaOcena>6.9</ŚredniaOcena>
+            <Opis>Gra action RPG, stanowiaca trzecia czesc przygod Geralta z Rivii. Podobnie jak we wczesniejszych odslonach cyklu, Wiedźmin 3: Dziki Gon bazuje na motywach tworczosci literackiej Andrzeja Sapkowskiego, jednak nie jest bezposrednia adaptacja żadnej z jego ksiażek.</Opis>
+            <sredniaOcena>6.9</sredniaOcena>
         </Gra>
         <Gra IdGry="G14" RokWydania="2019" Gatunek="Bijatyki" Platforma="XONE" >
-            <Tytuł>Mortal Kombat 11</Tytuł>
+            <Tytul>Mortal Kombat 11</Tytul>
             <Wydawca>Warner Bros</Wydawca>
             <Producent>NetherRealm Studios</Producent>
-            <ŚredniaOcena>2.1</ŚredniaOcena>
+            <sredniaOcena>2.1</sredniaOcena>
         </Gra>
         <Gra IdGry="G15" RokWydania="2011" Gatunek="Logiczne" Platforma="X360" PEGI="7" >
-            <Tytuł>Portal 2</Tytuł>
+            <Tytul>Portal 2</Tytul>
             <Wydawca>ElectronicArts</Wydawca>
             <Producent>Valve Software</Producent>
-            <ŚredniaOcena>3.7</ŚredniaOcena>
+            <sredniaOcena>3.7</sredniaOcena>
         </Gra>
         <Gra IdGry="G16" RokWydania="2004" Gatunek="FPS" Platforma="PC" >
-            <Tytuł>Half Life 2</Tytuł>
+            <Tytul>Half Life 2</Tytul>
             <Wydawca>Sierra</Wydawca>
             <Producent>Valve Software</Producent>
             <Producent>Entertaiment Software</Producent>
-            <Opis>Kontynuacja bestsellerowej produkcji studia Valve Software, która w 1998 roku wyznaczyła nowe standardy w gatunku strzelanin FPS.</Opis>
-            <ŚredniaOcena>9.1</ŚredniaOcena>
+            <Opis>Kontynuacja bestsellerowej produkcji studia Valve Software, ktora w 1998 roku wyznaczyla nowe standardy w gatunku strzelanin FPS.</Opis>
+            <sredniaOcena>9.1</sredniaOcena>
         </Gra>
         <Gra IdGry="G17" RokWydania="2004" Gatunek="MMO" Platforma="PC" >
-            <Tytuł>World of Warcraft</Tytuł>
+            <Tytul>World of Warcraft</Tytul>
             <Wydawca>Blizzard Entertaiment</Wydawca>
             <Producent>Blizzard Entertaiment</Producent>
-            <Opis>Epicka gra z gatunku MMORPG, której akcję osadzono w uniwersum znanym z kultowej serii RTS-ów fantasy firmy Blizzard.</Opis>
-            <ŚredniaOcena>4.4</ŚredniaOcena>
+            <Opis>Epicka gra z gatunku MMORPG, ktorej akcje osadzono w uniwersum znanym z kultowej serii RTS-ow fantasy firmy Blizzard.</Opis>
+            <sredniaOcena>4.4</sredniaOcena>
         </Gra>
         <Gra IdGry="G18" RokWydania="2007" Gatunek="MMO" Platforma="PC" PEGI="3" >
-            <Tytuł>Metin 2</Tytuł>
+            <Tytul>Metin 2</Tytul>
             <Wydawca>Gameforge</Wydawca>
             <Producent>SilverBirch Studios</Producent>
-            <Opis>Metin2 to kolejny przedstawiciel gatunku darmowych gier MMORPG, niewymagających uiszczania comiesięcznego abonamentu.</Opis>
-            <ŚredniaOcena>10.0</ŚredniaOcena>
+            <Opis>Metin2 to kolejny przedstawiciel gatunku darmowych gier MMORPG, niewymagajacych uiszczania comiesiecznego abonamentu.</Opis>
+            <sredniaOcena>10.0</sredniaOcena>
         </Gra>
         <Gra IdGry="G19" RokWydania="2019" Gatunek="Symulacje" Platforma="PC" >
-            <Tytuł>Euro Track Simulator</Tytuł>
+            <Tytul>Euro Track Simulator</Tytul>
             <Wydawca>SCS Software</Wydawca>
             <Producent>Rondomedia</Producent>
-            <ŚredniaOcena>6.6</ŚredniaOcena>
+            <sredniaOcena>6.6</sredniaOcena>
         </Gra>
         <Gra IdGry="G20" RokWydania="2019" Gatunek="Symulacje" Platforma="PC" >
-            <Tytuł>Assasins Creed - Black Flag</Tytuł>
+            <Tytul>Assasins Creed - Black Flag</Tytul>
             <Wydawca>Ubisoft</Wydawca>
             <Producent>Ubisoft</Producent>
-            <ŚredniaOcena>6.6</ŚredniaOcena>
+            <sredniaOcena>6.6</sredniaOcena>
         </Gra>
         <Gra IdGry="G21" RokWydania="2019" Gatunek="Przygodowe" Platforma="PC" >
-            <Tytuł>Fuarkolandia</Tytuł>
-            <Wydawca>Szkopiński Games</Wydawca>
+            <Tytul>Fuarkolandia</Tytul>
+            <Wydawca>Szkopinski Games</Wydawca>
             <Wydawca>JolaSupport Games</Wydawca>
             <Producent>Szkopinski INC.</Producent>
-            <ŚredniaOcena>10.0</ŚredniaOcena>
+            <sredniaOcena>10.0</sredniaOcena>
         </Gra>
     </ListaGier>
 
     <Gracze>
         <Gracz IdGracza="Gr1">
-        <Imię>Adam</Imię>
+        <Imie>Adam</Imie>
         <PseudonimGracza>PostAdam</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr2">
-        <Imię>Bartosz</Imię>
+        <Imie>Bartosz</Imie>
         <PseudonimGracza>Bukim</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr3">
-        <Imię>Kacper</Imię>
+        <Imie>Kacper</Imie>
         <PseudonimGracza>Anakinud</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr4">
-        <Imię>Damian</Imię>
+        <Imie>Damian</Imie>
         <PseudonimGracza>DoomLord</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr5">
-        <Imię>Adam</Imię>
+        <Imie>Adam</Imie>
         <PseudonimGracza>Cirrus</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr6">
-        <Imię>Michał</Imię>
+        <Imie>Michal</Imie>
         <PseudonimGracza>MikeW</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr7">
-        <Imię>Adrian</Imię>
+        <Imie>Adrian</Imie>
         <PseudonimGracza>Script</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr8">
-        <Imię>Kuba</Imię>
+        <Imie>Kuba</Imie>
         <PseudonimGracza>Del</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr9">
-        <Imię>Darek</Imię>
+        <Imie>Darek</Imie>
         <PseudonimGracza>DeathBringer</PseudonimGracza>
         </Gracz>
         <Gracz IdGracza="Gr10">
-        <Imię>Mariusz</Imię>
+        <Imie>Mariusz</Imie>
         <PseudonimGracza>Doktor</PseudonimGracza>
         </Gracz>
     </Gracze>
 
     <Recenzje>
         <Recenzja IdGry="G1" IdGracza="Gr1"> 
-            <Tytuł>Super gra</Tytuł>      
-            <TreśćRecenzji>Gra jest super duper.</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
-            <Ocena Wartość="8"></Ocena>
+            <Tytul>Super gra</Tytul>      
+            <TrescRecenzji>Gra jest super duper.</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
+            <Ocena Wartosc="8"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G2" IdGracza="Gr3">   
-            <Tytuł>Nic tylko jezdzić</Tytuł>      
-            <TreśćRecenzji>Gra bardzo fajna i relaksująca, sporo jeżdżenia, sporo dostarczania towarów. W sam raz by siąść, odpocząć i przejechać jedną czy dwie trasy podczas sesji.</TreśćRecenzji>
-            <DataRecenzji Dzień="16" Miesiąc="3" Rok="2018" />
-            <Ocena Wartość="7"></Ocena>
+            <Tytul>Nic tylko jezdzic</Tytul>      
+            <TrescRecenzji>Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.</TrescRecenzji>
+            <DataRecenzji Dzien="16" Miesiac="3" Rok="2018" />
+            <Ocena Wartosc="7"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G2" IdGracza="Gr10">   
-            <Tytuł>Bohaterowie świata</Tytuł>      
-            <TreśćRecenzji>Mój wujek jest lekarzem i spytałem go kiedyś jak to jest być bohaterem, odpowiedzial że nie wie, bo nie jest kierowcą tira.</TreśćRecenzji>
-            <DataRecenzji Dzień="16" Miesiąc="3" Rok="2018" />
-            <Ocena Wartość="9"></Ocena>
+            <Tytul>Bohaterowie swiata</Tytul>      
+            <TrescRecenzji>Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że nie wie, bo nie jest kierowca tira.</TrescRecenzji>
+            <DataRecenzji Dzien="16" Miesiac="3" Rok="2018" />
+            <Ocena Wartosc="9"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G3" IdGracza="Gr2">  
-            <Tytuł>Rewelacja!</Tytuł>    
-            <TreśćRecenzji>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
-            <Ocena Wartość="10"></Ocena>
+            <Tytul>Rewelacja!</Tytul>    
+            <TrescRecenzji>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
+            <Ocena Wartosc="10"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G14" IdGracza="Gr5">       
-            <Tytuł>Mogło być lepiej!</Tytuł>    
-            <TreśćRecenzji>Zwykły średniak, w dzisiejszych czasach wystarczy zrobić EX'a + ładna grafika + open world i gierka na start ma 8/10. Zawiodłem się, bo ludzie hypowali gierkę mocno wg mnie to max 6/10</TreśćRecenzji>
-            <DataRecenzji Dzień="4" Miesiąc="1" Rok="2018" />
-            <Ocena Wartość="5"></Ocena>
+            <Tytul>Moglo byc lepiej!</Tytul>    
+            <TrescRecenzji>Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to max 6/10</TrescRecenzji>
+            <DataRecenzji Dzien="4" Miesiac="1" Rok="2018" />
+            <Ocena Wartosc="5"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G5" IdGracza="Gr5">
-            <Tytuł>Płotka!</Tytuł>    
-            <TreśćRecenzji>Dużo bugów, spadałem z konia. Słaba mechanika.</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2017" />
-            <Ocena Wartość="3"></Ocena>
+            <Tytul>Plotka!</Tytul>    
+            <TrescRecenzji>Dużo bugow, spadalem z konia. Slaba mechanika.</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2017" />
+            <Ocena Wartosc="3"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G6" IdGracza="Gr6">       
-            <Tytuł>Grafika nie zachwyca!</Tytuł>                
-            <TreśćRecenzji>Nie podobala mi się. Grafika lepsza w Minecrafcie.</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
-            <Ocena Wartość="2"></Ocena>
+            <Tytul>Grafika nie zachwyca!</Tytul>                
+            <TrescRecenzji>Nie podobala mi sie. Grafika lepsza w Minecrafcie.</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
+            <Ocena Wartosc="2"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G12" IdGracza="Gr1">       
-            <Tytuł>Za trudna!</Tytuł>    
-            <TreśćRecenzji>Grałem na łatwym a i tak nie mogłem przejść początkowych poziomów.</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
-            <Ocena Wartość="4"></Ocena>
+            <Tytul>Za trudna!</Tytul>    
+            <TrescRecenzji>Gralem na latwym a i tak nie moglem przejsc poczatkowych poziomow.</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
+            <Ocena Wartosc="4"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G7" IdGracza="Gr10">     
-            <Tytuł>Jaka jest miara lepszości?</Tytuł>    
-            <TreśćRecenzji>Nie ocenie, bo nie ma miary.</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
+            <Tytul>Jaka jest miara lepszosci?</Tytul>    
+            <TrescRecenzji>Nie ocenie, bo nie ma miary.</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
         </Recenzja>
         <Recenzja IdGry="G8" IdGracza="Gr9">       
-            <Tytuł>Pozdrawiam Andrzej!</Tytuł>    
-            <TreśćRecenzji>Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej. </TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
-            <Ocena Wartość="10"></Ocena>
+            <Tytul>Pozdrawiam Andrzej!</Tytul>    
+            <TrescRecenzji>Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej. </TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
+            <Ocena Wartosc="10"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G14" IdGracza="Gr10">
-            <Tytuł>Zagralbym jeszcze raz.</Tytuł>    
-            <TreśćRecenzji>Grało mi się fajnie ale nie wiem na ile bo nie znam miary.</TreśćRecenzji>
-            <DataRecenzji Dzień="7" Miesiąc="12" Rok="2010" />
-            <Ocena Wartość="9"></Ocena>
+            <Tytul>Zagralbym jeszcze raz.</Tytul>    
+            <TrescRecenzji>Gralo mi sie fajnie ale nie wiem na ile bo nie znam miary.</TrescRecenzji>
+            <DataRecenzji Dzien="7" Miesiac="12" Rok="2010" />
+            <Ocena Wartosc="9"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G6" IdGracza="Gr6">
-            <Tytuł> Cały czas tłukłem! Całe noce całe dnie!</Tytuł>    
-            <TreśćRecenzji>Zmarnowałem 100 godzin życia, nie grajcie w te gre.</TreśćRecenzji>
-            <DataRecenzji Dzień="17" Miesiąc="8" Rok="2012" />
-            <Ocena Wartość="5"></Ocena>
+            <Tytul> Caly czas tluklem! Cale noce cale dnie!</Tytul>    
+            <TrescRecenzji>Zmarnowalem 100 godzin życia, nie grajcie w te gre.</TrescRecenzji>
+            <DataRecenzji Dzien="17" Miesiac="8" Rok="2012" />
+            <Ocena Wartosc="5"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G17" IdGracza="Gr9">       
-            <Tytuł>Zniszczyła mi życie.</Tytuł>
-            <TreśćRecenzji>Rzuciłem studia żeby wbijać wyższy level. Nie załuje!</TreśćRecenzji>
-            <DataRecenzji Dzień="1" Miesiąc="2" Rok="2019" />
-            <Ocena Wartość="9"></Ocena>
+            <Tytul>Zniszczyla mi życie.</Tytul>
+            <TrescRecenzji>Rzucilem studia żeby wbijac wyższy level. Nie zaluje!</TrescRecenzji>
+            <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
+            <Ocena Wartosc="9"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G18" IdGracza="Gr10">   
-            <Tytuł>Poluruje na orkach CH4</Tytuł>
-            <TreśćRecenzji>Nietstey mało serwerów. Dodawajcie mnie w grze nick: LurkaSzamanka! </TreśćRecenzji>
-            <DataRecenzji Dzień="5" Miesiąc="9" Rok="2019" />
-            <Ocena Wartość="5"></Ocena>
+            <Tytul>Poluruje na orkach CH4</Tytul>
+            <TrescRecenzji>Nietstey malo serwerow. Dodawajcie mnie w grze nick: LurkaSzamanka! </TrescRecenzji>
+            <DataRecenzji Dzien="5" Miesiac="9" Rok="2019" />
+            <Ocena Wartosc="5"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G15" IdGracza="Gr10">  
-            <Tytuł> I to ma być gra AAA?</Tytuł>       
-            <TreśćRecenzji>Napisałbym lepszą w tydzień.</TreśćRecenzji>
-            <DataRecenzji Dzień="16" Miesiąc="6" Rok="2014" />
-            <Ocena Wartość="1"></Ocena>
+            <Tytul> I to ma byc gra AAA?</Tytul>       
+            <TrescRecenzji>Napisalbym lepsza w tydzien.</TrescRecenzji>
+            <DataRecenzji Dzien="16" Miesiac="6" Rok="2014" />
+            <Ocena Wartosc="1"></Ocena>
         </Recenzja>
         <Recenzja IdGry="G13" IdGracza="Gr10">
-            <Tytuł>Niesamowita</Tytuł>    
-            <TreśćRecenzji>Niewymierna</TreśćRecenzji>
-            <DataRecenzji Dzień="6" Miesiąc="12" Rok="2014" />
+            <Tytul>Niesamowita</Tytul>    
+            <TrescRecenzji>Niewymierna</TrescRecenzji>
+            <DataRecenzji Dzien="6" Miesiac="12" Rok="2014" />
         </Recenzja>
     </Recenzje>
     <Stopka>
         <OstatniaEdycja Data="2019-03-22"/>
+        <Logo/>
     </Stopka>
 </BibliotekaGier>
