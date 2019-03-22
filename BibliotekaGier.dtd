@@ -5,7 +5,7 @@
 <!ENTITY % Miesiące "(1|2|3|4|5|6|7|8|9|10|11|12)">
 <!ENTITY % Dni "(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31)">
 
-<!ELEMENT BibliotekaGier (AutorzyDokumentu, ListaGier, Gracze, Recenzje)>
+<!ELEMENT BibliotekaGier (AutorzyDokumentu, ListaGier, Gracze, Recenzje, Stopka?)>
 <!-- Autorzy -->
 <!ELEMENT AutorzyDokumentu (Autor*)>
 <!ELEMENT Autor (Imię, Nazwisko, NumerIndeksu)>
@@ -50,3 +50,7 @@
 >
 <!ELEMENT Ocena EMPTY>
 <!ATTLIST Ocena Wartość %Oceny; #IMPLIED>
+
+<!ELEMENT Stopka (OstatniaEdycja)>
+<!ELEMENT OstatniaEdycja EMPTY>
+<!ATTLIST OstatniaEdycja Data NMTOKEN #REQUIRED>

@@ -301,5 +301,7 @@
             <DataRecenzji Dzień="6" Miesiąc="12" Rok="2014" />
         </Recenzja>
     </Recenzje>
-
+    <Stopka>
+        <OstatniaEdycja Data="2019-03-22"/>
+    </Stopka>
 </BibliotekaGier>

@@ -1,351 +1,364 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton|Roboto|Bungee');
+@import url("https://fonts.googleapis.com/css?family=Monoton|Roboto|Bungee");
 
-BibliotekaGier:before, ListaGier:before, Gracze:before, Recenzje:before{
-    font-family: 'Monoton', cursive;
-    text-align: center;
-    font-size: 3em;
-    content: "Biblioteka gier";
-    padding: 25px;
-    margin-top: 20px;
-    background: rgb(39, 39, 44);
-    color:#C3073F;
+BibliotekaGier:before,
+ListaGier:before,
+Gracze:before,
+Recenzje:before {
+  font-family: "Monoton", cursive;
+  text-align: center;
+  font-size: 3em;
+  content: "Biblioteka gier";
+  padding: 25px;
+  margin-top: 20px;
+  background: rgb(39, 39, 44);
+  color: #c3073f;
 }
 
-BibliotekaGier{
-    max-width: 1200px;
-    margin:auto;
-    padding:20px 50px;
-    background: #1A1A1D;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    color: antiquewhite;
+BibliotekaGier {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 50px;
+  background: #1a1a1d;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
 }
 
-AutorzyDokumentu:before{
-    font-family: 'Monoton', cursive;
-    content:"Autorzy dokumentu";
-    font-size: 2em;
-    text-align: center;
-    flex: 0 0 100%;
-    margin-bottom: 25px;
+AutorzyDokumentu:before {
+  font-family: "Monoton", cursive;
+  content: "Autorzy dokumentu";
+  font-size: 2em;
+  text-align: center;
+  flex: 0 0 100%;
+  margin-bottom: 25px;
 }
 
-AutorzyDokumentu{
-    margin-top:20px;
-    background: rgb(39, 39, 44);
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding:50px;
+AutorzyDokumentu {
+  margin-top: 20px;
+  background: rgb(39, 39, 44);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 
-Autor:hover{
-    background: #444;
-    transition:0.4s;
+Autor:hover {
+  background: #444;
+  transition: 0.4s;
 }
 
-Autor{
-    font-family: 'Bungee', cursive;
-    background: rgb(48, 48, 54);
-    font-size: 1.5em;
-    color: #C3073F;
-    flex: 6;
-    text-align: center;
-    margin: 0 20px;
-    padding:20px;
+Autor {
+  font-family: "Bungee", cursive;
+  background: rgb(48, 48, 54);
+  font-size: 1.5em;
+  color: #c3073f;
+  flex: 6;
+  text-align: center;
+  margin: 0 20px;
+  padding: 20px;
 }
 
-Autor:after{
-    color:rgb(82, 82, 83);
-    content: attr(numerindeksu);
-    display:block;
+Autor:after {
+  color: rgb(82, 82, 83);
+  content: attr(numerindeksu);
+  display: block;
 }
 
-ListaGier:before{
-    content:"ListaGier";
-    display: inline;
+ListaGier:before {
+  content: "ListaGier";
+  display: inline;
 }
 
 ListaGier {
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-Gra{
-    background: rgb(39, 39, 44);
-    padding:20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid  rgb(81, 81, 90);
+Gra {
+  background: rgb(39, 39, 44);
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(81, 81, 90);
 }
 
-Gra:hover{
-    background: rgb(58, 58, 65);
-    transition:0.4s;
+Gra:hover {
+  background: rgb(58, 58, 65);
+  transition: 0.4s;
 }
 
-Gra > Tytuł{
-    color: #950740;
-    font-size: 1.5em; 
-    font-weight: bold;
-    margin-bottom: 5px;
+Gra > Tytuł {
+  color: #950740;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-Gra > Wydawca:before{
-    color: rgb(233, 163, 58);
-    content: "Wydawca: ";
+Gra > Wydawca:before {
+  color: rgb(233, 163, 58);
+  content: "Wydawca: ";
 }
 
-Gra:after{
-    position: absolute;
-    content: "ID: [" attr(IdGry) "]";
-    top:20px;
-    right:20px;
-    color:rgba(250, 235, 215, 0.404);
+Gra:after {
+  position: absolute;
+  content: "ID: [" attr(IdGry) "]";
+  top: 20px;
+  right: 20px;
+  color: rgba(250, 235, 215, 0.404);
 }
 
-Gra > Producent:before{
-    color:  rgb(233, 163, 58);
-    content: "Producent: ";
+Gra > Producent:before {
+  color: rgb(233, 163, 58);
+  content: "Producent: ";
 }
 
-Gra > Opis{
-    margin-top: 8px;
-    padding:10px;
-    border-radius: 5px;
-    border:1px solid rgba(255, 255, 255, 0.3);
-    order:1;
+Gra > Opis {
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  order: 1;
 }
 
-Gra > Opis:before{
-    color:  rgb(233, 163, 58);
-    content: "Opis: ";
+Gra > Opis:before {
+  color: rgb(233, 163, 58);
+  content: "Opis: ";
 }
 
-Gra > ŚredniaOcena:before{
-    color:  rgb(233, 163, 58);
-    content: "Średnia ocena: ";
+Gra > ŚredniaOcena:before {
+  color: rgb(233, 163, 58);
+  content: "Średnia ocena: ";
 }
 
-Gra > ŚredniaOcena:after{
-    color:  rgb(7, 207, 140);
-    content: "/10.0";
+Gra > ŚredniaOcena:after {
+  color: rgb(7, 207, 140);
+  content: "/10.0";
 }
 
-Gra:last-child{
-    border:none;
+Gra:last-child {
+  border: none;
 }
 
-Gracze:before{
-    font-family: 'Monoton', cursive;
-    content:"Lista graczy";
-    text-align: center;
-    flex: 0 0 100%;
-    padding:20px 0px;
+Gracze:before {
+  font-family: "Monoton", cursive;
+  content: "Lista graczy";
+  text-align: center;
+  flex: 0 0 100%;
+  padding: 20px 0px;
 }
 
-Gracze{
-    margin-top:20px;
-    background: rgb(39, 39, 44);
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding:20px;
-    justify-content: center;
+Gracze {
+  margin-top: 20px;
+  background: rgb(39, 39, 44);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
 }
 
-Gracz{
-    text-align: center;
-    padding:20px;
-    flex: 1 0 33%;
-    font-family: 'Bungee', cursive;
-    background: rgb(48, 48, 54);
-    font-size: 1em;
-    text-align: center;
-    margin: 10px 10px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+Gracz {
+  text-align: center;
+  padding: 20px;
+  flex: 1 0 33%;
+  font-family: "Bungee", cursive;
+  background: rgb(48, 48, 54);
+  font-size: 1em;
+  text-align: center;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
-Gracz[IdGracza]:hover{
-    transition:0.4s;
+Gracz[IdGracza]:hover {
+  transition: 0.4s;
 }
-Gracz[IdGracza=Gr1]:hover{
-    background: cadetblue;
+Gracz[IdGracza="Gr1"]:hover {
+  background: cadetblue;
 }
-Gracz[IdGracza=Gr2]:hover{
-    background: darkslategray;
+Gracz[IdGracza="Gr2"]:hover {
+  background: darkslategray;
 }
-Gracz[IdGracza=Gr3]:hover{
-    background: darkslateblue;
+Gracz[IdGracza="Gr3"]:hover {
+  background: darkslateblue;
 }
-Gracz[IdGracza=Gr4]:hover{
-    background: maroon;
+Gracz[IdGracza="Gr4"]:hover {
+  background: maroon;
 }
-Gracz[IdGracza=Gr5]:hover{
-    background: rgba(83, 62, 21, 0.753);
+Gracz[IdGracza="Gr5"]:hover {
+  background: rgba(83, 62, 21, 0.753);
 }
-Gracz[IdGracza=Gr6]:hover{
-    background: steelblue;
+Gracz[IdGracza="Gr6"]:hover {
+  background: steelblue;
 }
-Gracz[IdGracza=Gr7]:hover{
-    background: darkseagreen;
+Gracz[IdGracza="Gr7"]:hover {
+  background: darkseagreen;
 }
-Gracz[IdGracza=Gr8]:hover{
-    background: cadetblue;
+Gracz[IdGracza="Gr8"]:hover {
+  background: cadetblue;
 }
-Gracz[IdGracza=Gr9]:hover{
-    background: rgb(97, 24, 30);
-}
-
-Gracz[IdGracza=Gr10]:hover{
-    background: #1A1A1D;
+Gracz[IdGracza="Gr9"]:hover {
+  background: rgb(97, 24, 30);
 }
 
+Gracz[IdGracza="Gr10"]:hover {
+  background: #1a1a1d;
+}
 
 Gracz > PseudonimGracza {
-    font-size:0.8;
-    font-style: italic;
-    font-weight: 400;
-    color: rgba(250, 235, 215, 0.349);
+  font-size: 0.8;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(250, 235, 215, 0.349);
 }
 
-Gracz:after{
-    content: "ID: [" attr(IdGracza) "]";
-    color: rgba(250, 235, 215, 0.349);
-    font-size: 0.8em;
-    text-align: end;
+Gracz:after {
+  content: "ID: [" attr(IdGracza) "]";
+  color: rgba(250, 235, 215, 0.349);
+  font-size: 0.8em;
+  text-align: end;
 }
 
-Gracz > PseudonimGracza:before{
-    content:"\"";
+Gracz > PseudonimGracza:before {
+  content: '"';
 }
-Gracz > PseudonimGracza:after{
-    content:"\"";
-}
-
-Recenzje{
-    display: flex;
-    flex-direction: column;
-    background: rgb(39, 39, 44);
-    margin: 20px 0;
-    padding-bottom: 30px;
-    border-bottom-left-radius: 10px; 
-    border-bottom-right-radius: 10px;
+Gracz > PseudonimGracza:after {
+  content: '"';
 }
 
-Recenzje:before{
-    content:"Recenzje";
+Recenzje {
+  display: flex;
+  flex-direction: column;
+  background: rgb(39, 39, 44);
+  margin: 20px 0;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-Recenzja:hover{
-    transform: scale(1.01);
+Recenzje:before {
+  content: "Recenzje";
 }
 
-Recenzja{
-    margin:8px 40px;
-    padding:20px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background: rgb(61, 61, 68);
-    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+Recenzja:hover {
+  transform: scale(1.01);
 }
 
-Recenzja:last-child{
-    border-bottom:none;
+Recenzja {
+  margin: 8px 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: rgb(61, 61, 68);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
-Recenzja:before{
-    content: "[" attr(IdGry) "][" attr(IdGracza) "]";
-    position: absolute;
-    top:15px;
-    right: 15px;
-    font-size: 0.9em;
-    color:rgba(250, 235, 215, 0.281);
+Recenzja:last-child {
+  border-bottom: none;
 }
 
-Recenzja > Tytuł{
-    color:  #C3073F;
-    font-size: 2em;
-    font-weight: bolder;
+Recenzja:before {
+  content: "[" attr(IdGry) "][" attr(IdGracza) "]";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 0.9em;
+  color: rgba(250, 235, 215, 0.281);
 }
 
-Recenzja > TreśćRecenzji:before{
-    content:"Treść recenzji:";
-    font-size: 0.8;
-    color:  rgb(233, 201, 58);
-    position: absolute;
-    top:-25px;
-    left:0;
-
+Recenzja > Tytuł {
+  color: #c3073f;
+  font-size: 2em;
+  font-weight: bolder;
 }
 
-Recenzja > TreśćRecenzji{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    border:1px solid rgb(0, 0, 0, 0.4);
-    background: rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    position: relative;
+Recenzja > TreśćRecenzji:before {
+  content: "Treść recenzji:";
+  font-size: 0.8;
+  color: rgb(233, 201, 58);
+  position: absolute;
+  top: -25px;
+  left: 0;
 }
 
-Recenzja > DataRecenzji{
-    display:flex;
-    flex-direction: row;
-    padding: 0px 10px;
-    align-self: flex-end;
-    padding: 5px;
-    font-style: italic;
-    color: rgba(250, 235, 215, 0.349);
+Recenzja > TreśćRecenzji {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
 }
 
-
-Recenzja > DataRecenzji:before{
-    content: "Data: " attr(Dzień) "-" attr(Miesiąc) "-" attr(Rok);
-    margin: 0px 3px;
-
+Recenzja > DataRecenzji {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  align-self: flex-end;
+  padding: 5px;
+  font-style: italic;
+  color: rgba(250, 235, 215, 0.349);
 }
 
-Recenzja > Ocena{
-    font-size: 2em;
-    text-align: center;
-    color: #C3073F;
+Recenzja > DataRecenzji:before {
+  content: "Data: " attr(Dzień) "-" attr(Miesiąc) "-" attr(Rok);
+  margin: 0px 3px;
 }
 
-Recenzja > Ocena:after{
-    content: attr(Wartość) "/10";
+Recenzja > Ocena {
+  font-size: 2em;
+  text-align: center;
+  color: #c3073f;
+}
+
+Recenzja > Ocena:after {
+  content: attr(Wartość) "/10";
+}
+
+Stopka {
+  background: rgb(39, 39, 44);
+  padding: 30px;
+  display: inline;
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+}
+Stopka > OstatniaEdycja:before {
+    content: "Ostatnia edycja: " attr(Data);
 }
 
 @media screen and (max-width: 800px) {
-    BibliotekaGier{
-        padding:10px;
-    }
-    BibliotekaGier:before, ListaGier:before, Gracze:before, Recenzje:before{
-        font-size: 2em;
-    }
-    AutorzyDokumentu{
-        padding: 10px;
-    }
-    AutorzyDokumenty:before{
-        font-size: 1.5em;
-    }
-    Autor{
-        font-size: 1em;
-        min-width: 260px;
-        margin: 15px 10px;
-    }
-    Gra>Tytuł{
-        margin-top: 20px;
-    }
-    Recenzja>Tytuł{
-        margin-top: 20px;
-    }
-    Recenzja{
-        margin: 15px;
-    }
+  BibliotekaGier {
+    padding: 10px;
+  }
+  BibliotekaGier:before,
+  ListaGier:before,
+  Gracze:before,
+  Recenzje:before {
+    font-size: 2em;
+  }
+  AutorzyDokumentu {
+    padding: 10px;
+  }
+  AutorzyDokumenty:before {
+    font-size: 1.5em;
+  }
+  Autor {
+    font-size: 1em;
+    min-width: 260px;
+    margin: 15px 10px;
+  }
+  Gra > Tytuł {
+    margin-top: 20px;
+  }
+  Recenzja > Tytuł {
+    margin-top: 20px;
+  }
+  Recenzja {
+    margin: 15px;
+  }
 }
