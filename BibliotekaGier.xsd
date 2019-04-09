@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="BibliotekaGier" type="BibliotekaGierType" />
+  <!-- AutorType -->
+  <xs:complexType name="AutorType">
+    <xs:sequence>
+      <xs:element name="Imie" type="xs:string" />
+      <xs:element name="Nazwisko" type="xs:string" />
+      <xs:element name="NumerIndeksu">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9]" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <!-- AutorzyDokumentuType -->
+  <xs:complexType name="AutorzyDokumentuType">
+    <xs:sequence>
+      <xs:element type="AutorType" name="Autor" maxOccurs="unbounded" minOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <!-- GraType -->
+  <xs:complexType name="GraType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Tytul" />
+      <xs:element type="xs:string" name="Wydawca" maxOccurs="unbounded" minOccurs="0" />
+      <xs:element type="xs:string" name="Producent" maxOccurs="unbounded" minOccurs="0" />
+      <xs:element type="xs:string" name="Opis" minOccurs="0" />
+      <xs:element type="xs:float" name="sredniaOcena" />
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IdGry" use="optional" />
+    <xs:attribute type="xs:gYear" name="RokWydania" use="optional" />
+    <xs:attribute name="Gatunek" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Bijatyka" />
+          <xs:enumeration value="Akcji" />
+          <xs:enumeration value="FPS" />
+          <xs:enumeration value="Horror" />
+          <xs:enumeration value="Surrvival" />
+          <xs:enumeration value="Zrecznosciowe" />
+          <xs:enumeration value="Strategiczne" />
+          <xs:enumeration value="RPG" />
+          <xs:enumeration value="Przygodowe" />
+          <xs:enumeration value="Platformowka" />
+          <xs:enumeration value="Sportowe" />
+          <xs:enumeration value="Wyscigi" />
+          <xs:enumeration value="Symulacje" />
+          <xs:enumeration value="Logiczne" />
+          <xs:enumeration value="MMO" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute type="xs:string" name="Platforma" use="optional">
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:enumeration value="PC" />
+          <xs:enumeration value="PS4" />
+          <xs:enumeration value="PS3" />
+          <xs:enumeration value="PS2" />
+          <xs:enumeration value="PSP" />
+          <xs:enumeration value="X360" />
+          <xs:enumeration value="XONE" />
+          <xs:enumeration value="Nintendo" />
+          <xs:enumeration value="3DS" />
+          <xs:enumeration value="Switch" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute type="xs:byte" name="PEGI" use="optional">
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:enumeration value="3" />
+          <xs:enumeration value="7" />
+          <xs:enumeration value="12" />
+          <xs:enumeration value="16" />
+          <xs:enumeration value="18" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <!-- ListaGierType -->
+  <xs:complexType name="ListaGierType">
+    <xs:sequence>
+      <xs:element type="GraType" name="Gra" maxOccurs="unbounded" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <!-- GraczType -->
+  <xs:complexType name="GraczType">
+    <xs:sequence>
+      <xs:element name="Imie" type="xs:string" />
+      <xs:element name="PseudonimGracza" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IdGracza" use="optional" />
+  </xs:complexType>
+  <!-- GraczeType -->
+  <xs:complexType name="GraczeType">
+    <xs:sequence>
+      <xs:element type="GraczType" name="Gracz" maxOccurs="unbounded" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <!-- DataRecenzjiType -->
+  <xs:complexType name="DataRecenzjiType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:byte" name="Dzien" use="optional" />
+        <xs:attribute type="xs:byte" name="Miesiac" use="optional" />
+        <xs:attribute type="xs:short" name="Rok" use="optional" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <!-- OcenaType -->
+  <xs:complexType name="OcenaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:byte" name="Wartosc" use="optional" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <!-- RecenzjaType -->
+  <xs:complexType name="RecenzjaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Tytul" />
+      <xs:element type="xs:string" name="TrescRecenzji" />
+      <xs:element type="DataRecenzjiType" name="DataRecenzji" />
+      <xs:element type="OcenaType" name="Ocena" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IdGry" use="optional" />
+    <xs:attribute type="xs:string" name="IdGracza" use="optional" />
+  </xs:complexType>
+  <!-- Recenzje Type -->
+  <xs:complexType name="RecenzjeType">
+    <xs:sequence>
+      <xs:element type="RecenzjaType" name="Recenzja" maxOccurs="unbounded" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OstatniaEdycjaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:date" name="Data" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <!-- StopkaType -->
+  <xs:complexType name="StopkaType">
+    <xs:sequence>
+      <xs:element type="OstatniaEdycjaType" name="OstatniaEdycja" />
+      <xs:element type="xs:string" name="Logo" />
+    </xs:sequence>
+  </xs:complexType>
+  <!-- BibliotekaGierType -->
+  <xs:complexType name="BibliotekaGierType">
+    <xs:sequence>
+      <xs:element type="AutorzyDokumentuType" name="AutorzyDokumentu" />
+      <xs:element type="ListaGierType" name="ListaGier" />
+      <xs:element type="GraczeType" name="Gracze" />
+      <xs:element type="RecenzjeType" name="Recenzje" />
+      <xs:element type="StopkaType" name="Stopka" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
