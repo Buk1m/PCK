@@ -1,10 +1,9 @@
 <!ENTITY % Platformy "(PC|PS4|PS3|PS2|PSP|X360|XONE|Nintendo|3DS|Switch)">
-<!ENTITY % Gatunki "(Bijatyka|Akcji|FPS|Horror|Surrvival|Zrecznosciowe|Bijatyki|Strategiczne|RPG|Przygodowe|Platformowka|Sportowe|Wyscigi|Symulacje|Logiczne|MMO)">
+<!ENTITY % Gatunki "(Bijatyki|Akcji|FPS|Horror|Surrvival|Zrecznosciowe|Bijatyki|Strategiczne|RPG|Przygodowe|Platformowka|Sportowe|Wyscigi|Symulacje|Logiczne|MMO)">
 <!ENTITY % GrupyWiekowe "(3|7|12|16|18)">
 <!ENTITY % Oceny "(1|2|3|4|5|6|7|8|9|10)">
 <!ENTITY % Miesiace "(1|2|3|4|5|6|7|8|9|10|11|12)">
 <!ENTITY % Dni "(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31)">
-
 <!ELEMENT BibliotekaGier (AutorzyDokumentu, ListaGier, Gracze, Recenzje, Stopka?)>
 <!-- Autorzy -->
 <!ELEMENT AutorzyDokumentu (Autor*)>
@@ -12,7 +11,6 @@
 <!ELEMENT Imie (#PCDATA)>
 <!ELEMENT Nazwisko (#PCDATA)>
 <!ELEMENT NumerIndeksu (#PCDATA)>
-
 <!-- Lista gier -->
 <!ELEMENT ListaGier (Gra*)>
 <!ELEMENT Gra (Tytul, Wydawca+, Producent+, Opis?, sredniaOcena)>
@@ -28,29 +26,25 @@
 <!ELEMENT Producent (#PCDATA)>
 <!ELEMENT Opis (#PCDATA)>
 <!ELEMENT sredniaOcena (#PCDATA)>
-
 <!-- Gracze -->
 <!ELEMENT Gracze (Gracz*)>
 <!ELEMENT Gracz (Imie, PseudonimGracza)>
 <!ELEMENT PseudonimGracza (#PCDATA)>
 <!ATTLIST Gracz IdGracza ID #REQUIRED>
-
 <!-- Recenzje -->
 <!ELEMENT Recenzje (Recenzja*)>
 <!ELEMENT Recenzja (Tytul, TrescRecenzji, DataRecenzji, Ocena?)>
-<!ATTLIST Recenzja 
+<!ATTLIST Recenzja
     IdGry IDREF #REQUIRED
-    IdGracza IDREF #REQUIRED>
+    IdGracza IDREF #REQUIRED
+>
 <!ELEMENT TrescRecenzji (#PCDATA)>
 <!ELEMENT DataRecenzji EMPTY>
-<!ATTLIST DataRecenzji 
-    Dzien %Dni; #REQUIRED
+<!ATTLIST DataRecenzji Dzien %Dni; #REQUIRED
     Miesiac %Miesiace; #REQUIRED
-    Rok CDATA #REQUIRED
->
+    Rok CDATA #REQUIRED>
 <!ELEMENT Ocena EMPTY>
 <!ATTLIST Ocena Wartosc %Oceny; #IMPLIED>
-
 <!ELEMENT Stopka (OstatniaEdycja, Logo?)>
 <!ELEMENT OstatniaEdycja EMPTY>
 <!ATTLIST OstatniaEdycja Data NMTOKEN #REQUIRED>
