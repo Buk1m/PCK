@@ -88,6 +88,7 @@
           <xs:restriction base="xs:float">
             <xs:minInclusive value="0" />
             <xs:maxInclusive value="10" />
+            <xs:>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
@@ -141,13 +142,9 @@
   </xs:complexType>
   <!-- DataRecenzjiType -->
   <xs:complexType name="DataRecenzjiType">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:attribute type="xs:byte" name="Dzien" use="optional" />
-        <xs:attribute type="xs:byte" name="Miesiac" use="optional" />
-        <xs:attribute type="xs:short" name="Rok" use="optional" />
-      </xs:extension>
-    </xs:simpleContent>
+        <xs:attribute type="xs:byte" name="Dzien" use="required" />
+        <xs:attribute type="xs:byte" name="Miesiac" use="required" />
+        <xs:attribute type="xs:short" name="Rok" use="required" />
   </xs:complexType>
   <!-- OcenaType -->
   <xs:complexType name="OcenaType">
