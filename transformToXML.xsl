@@ -3,6 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xpath-default-namespace="http://www.gamelib.org/types"
 >
+
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:key name="gra" match="Gra" use="@IdGry"/>
@@ -47,27 +48,27 @@
                 <liczba_gier_RPG>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='RPG'])"/>
                 </liczba_gier_RPG>
-                <liczba_gier_Przygodowe>
+                <liczba_gier_przygodowe>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Przygodowe'])"/>
-                </liczba_gier_Przygodowe>
-                <liczba_gier_Platformowki>
+                </liczba_gier_przygodowe>
+                <liczba_gier_platformowki>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Platformowki'])"/>
-                </liczba_gier_Platformowki>
-                <liczba_gier_Sportowe>
+                </liczba_gier_platformowki>
+                <liczba_gier_sportowe>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Sportowe'])"/>
-                </liczba_gier_Sportowe>
-                <liczba_gier_Wyscigi>
+                </liczba_gier_sportowe>
+                <liczba_gier_wyscigi>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Wyscigi'])"/>
-                </liczba_gier_Wyscigi>
-                <liczba_gier_Symulacje>
+                </liczba_gier_wyscigi>
+                <liczba_gier_symulacje>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Symulacje'])"/>
-                </liczba_gier_Symulacje>
-                <liczba_gier_Logiczne>
+                </liczba_gier_symulacje>
+                <liczba_gier_logiczne>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Logiczne'])"/>
-                </liczba_gier_Logiczne>
-                <liczba_gier_Wyscigi>
+                </liczba_gier_logiczne>
+                <liczba_gier_wyscigi>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Wyscigi'])"/>
-                </liczba_gier_Wyscigi>
+                </liczba_gier_wyscigi>
                 <liczba_gier_MMO>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='MMO'])"/>
                 </liczba_gier_MMO>
@@ -77,6 +78,11 @@
                 <zestawienie_gier>
                     <xsl:for-each select="ListaGier/Gra">
                         <gra>
+                            <tytul>
+                                <xsl:for-each select="key('gra', @IdGry)">
+                                    <xsl:value-of select="Tytul"/>
+                                </xsl:for-each>
+                            </tytul>
                             <srednia_ocena_gry>
                                 <xsl:variable name="suma_ocen_gry"
                                               select="sum(/BibliotekaGier/Recenzje/Recenzja[@IdGry=current()/@IdGry]/Ocena/@Wartosc)"/>
@@ -87,22 +93,29 @@
                                 <xsl:value-of
                                         select="format-number($avg, '0.00')"/>
                             </srednia_ocena_gry>
-                            <recenzje_gry>
-                                <xsl:for-each select="key('recenzja_gra', @IdGry)">
-                                    <recenzja>
-                                        <gracz>
-                                            <xsl:for-each select="key('gracz', @IdGracza)">
-                                                <xsl:value-of select="PseudonimGracza"/>
-                                            </xsl:for-each>
-                                        </gracz>
-                                        <xsl:copy-of copy-namespaces="no" select="*"/>
-                                    </recenzja>
-                                </xsl:for-each>
-                            </recenzje_gry>
+
+                            <xsl:if test="count(key('recenzja_gra', @IdGry)) &gt; 0">
+                                <recenzje_gry>
+                                    <xsl:for-each select="key('recenzja_gra', @IdGry)">
+                                        <recenzja>
+                                            <gracz>
+                                                <xsl:for-each select="key('gracz', @IdGracza)">
+                                                    <xsl:value-of select="PseudonimGracza"/>
+                                                </xsl:for-each>
+                                            </gracz>
+                                            <tytul>
+                                                <xsl:value-of select="Tytul"/>
+                                            </tytul>
+                                            <tresc>
+                                                <xsl:value-of select="TrescRecenzji"/>
+                                            </tresc>
+                                        </recenzja>
+                                    </xsl:for-each>
+                                </recenzje_gry>
+                            </xsl:if>
                         </gra>
 
                     </xsl:for-each>
-
                 </zestawienie_gier>
 
             </statystyki>
@@ -115,10 +128,21 @@
 
     <xsl:template match="AutorzyDokumentu">
         <autorzy>
-            <xsl:copy-of select="Autor" copy-namespaces="no"/>
+            <xsl:for-each select="Autor">
+                <autor>
+                    <imie>
+                        <xsl:value-of select="Imie"/>
+                    </imie>
+                    <nazwisko>
+                        <xsl:value-of select="Nazwisko"/>
+                    </nazwisko>
+                    <indeks>
+                        <xsl:value-of select="NumerIndeksu"/>
+                    </indeks>
+                </autor>
+            </xsl:for-each>
         </autorzy>
     </xsl:template>
-
 
     <xsl:template match="Recenzje"/>
     <xsl:template match="Gracze"/>
