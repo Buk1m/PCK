@@ -23,7 +23,7 @@
             <OcenaKrytyka>9.6</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G2" RokWydania="2013" Gatunek="FPS" Platforma="PC" PEGI="18">
-            <Tytul>System Shock 2</Tytul>
+            <Tytul>System_Shock 2</Tytul>
             <Wydawca>EA Games</Wydawca>
             <Producent>Irrational Games</Producent>
             <Cena>79.99</Cena>
