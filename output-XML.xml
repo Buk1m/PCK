@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformToXHTML.xsl" ?>
+<raport>
+	<autorzy>
+		<autor>
+			<imie>Bartosz</imie>
+			<nazwisko>Kudra</nazwisko>
+			<indeks>210239</indeks>
+		</autor>
+		<autor>
+			<imie>Adam</imie>
+			<nazwisko>Lindner</nazwisko>
+			<indeks>210253</indeks>
+		</autor>
+	</autorzy>
+	<statystyki>
+		<liczba_gier>21</liczba_gier>
+		<liczba_graczy>10</liczba_graczy>
+		<liczba_recenzji>16</liczba_recenzji>
+		<liczba_bijatyk>2</liczba_bijatyk>
+		<liczba_gier_akcji>3</liczba_gier_akcji>
+		<liczba_gier_FPS>3</liczba_gier_FPS>
+		<liczba_gier_horror>1</liczba_gier_horror>
+		<liczba_gier_survival>0</liczba_gier_survival>
+		<liczba_gier_zrecznosciowe>0</liczba_gier_zrecznosciowe>
+		<liczba_gier_strategiczne>0</liczba_gier_strategiczne>
+		<liczba_gier_RPG>4</liczba_gier_RPG>
+		<liczba_gier_przygodowe>1</liczba_gier_przygodowe>
+		<liczba_gier_platformowki>1</liczba_gier_platformowki>
+		<liczba_gier_sportowe>0</liczba_gier_sportowe>
+		<liczba_gier_wyscigi>1</liczba_gier_wyscigi>
+		<liczba_gier_symulacje>2</liczba_gier_symulacje>
+		<liczba_gier_logiczne>1</liczba_gier_logiczne>
+		<liczba_gier_wyscigi>1</liczba_gier_wyscigi>
+		<liczba_gier_MMO>2</liczba_gier_MMO>
+		<koszt_wszystkich_gier>1756.31</koszt_wszystkich_gier>
+		<zestawienie_gier>
+			<gra>
+				<tytul>BioShock Infinite</tytul>
+				<srednia_ocena_gry>8.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>PostAdam</gracz>
+						<tytul>Super gra</tytul>
+						<tresc>Gra jest super duper.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>System_Shock 2</tytul>
+				<srednia_ocena_gry>8.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Anakinud</gracz>
+						<tytul>Nic tylko jezdzic</tytul>
+						<tresc>Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.</tresc>
+					</recenzja>
+					<recenzja>
+						<gracz>Doktor</gracz>
+						<tytul>Bohaterowie swiata</tytul>
+						<tresc>Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że nie wie, bo nie jest kierowca tira.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Horizon Zero Dawn</tytul>
+				<srednia_ocena_gry>10.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Bukim</gracz>
+						<tytul>Rewelacja!</tytul>
+						<tresc>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>The Elder Scrolls V: Skyrim</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>Hollow Knight</tytul>
+				<srednia_ocena_gry>3.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Cirrus</gracz>
+						<tytul>Plotka!</tytul>
+						<tresc>Dużo bugow, spadalem z konia. Slaba mechanika.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Halo 4</tytul>
+				<srednia_ocena_gry>3.50</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>MikeW</gracz>
+						<tytul>Grafika nie zachwyca!</tytul>
+						<tresc>Nie podobala mi sie. Grafika lepsza w Minecrafcie.</tresc>
+					</recenzja>
+					<recenzja>
+						<gracz>MikeW</gracz>
+						<tytul> Caly czas tluklem! Cale noce cale dnie!</tytul>
+						<tresc>Zmarnowalem 100 godzin życia, nie grajcie w te gre.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Red Dead Redemption 2</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Doktor</gracz>
+						<tytul>Jaka jest miara lepszosci?</tytul>
+						<tresc>Nie ocenie, bo nie ma miary.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Mario Kart 7</tytul>
+				<srednia_ocena_gry>10.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>DeathBringer</gracz>
+						<tytul>Pozdrawiam Andrzej!</tytul>
+						<tresc>Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej. </tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Mass Effect 2</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>Tekken 6</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>Bloodborne</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>God of War</tytul>
+				<srednia_ocena_gry>4.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>PostAdam</gracz>
+						<tytul>Za trudna!</tytul>
+						<tresc>Gralem na latwym a i tak nie moglem przejsc poczatkowych poziomow.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Wiedźmin 3: Dziki Gon</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Doktor</gracz>
+						<tytul>Niesamowita</tytul>
+						<tresc>Niewymierna</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Mortal Kombat 11</tytul>
+				<srednia_ocena_gry>7.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Cirrus</gracz>
+						<tytul>Moglo byc lepiej!</tytul>
+						<tresc>Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to max 6/10</tresc>
+					</recenzja>
+					<recenzja>
+						<gracz>Doktor</gracz>
+						<tytul>Zagralbym jeszcze raz.</tytul>
+						<tresc>Gralo mi sie fajnie ale nie wiem na ile bo nie znam miary.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Portal 2</tytul>
+				<srednia_ocena_gry>1.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Doktor</gracz>
+						<tytul> I to ma byc gra AAA?</tytul>
+						<tresc>Napisalbym lepsza w tydzien.</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Half Life 2</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>World of Warcraft</tytul>
+				<srednia_ocena_gry>9.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>DeathBringer</gracz>
+						<tytul>Zniszczyla mi życie.</tytul>
+						<tresc>Rzucilem studia żeby wbijac wyższy level. Nie zaluje!</tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Metin 2</tytul>
+				<srednia_ocena_gry>5.00</srednia_ocena_gry>
+				<recenzje_gry>
+					<recenzja>
+						<gracz>Doktor</gracz>
+						<tytul>Poluruje na orkach CH4</tytul>
+						<tresc>Nietstey malo serwerow. Dodawajcie mnie w grze nick: LurkaSzamanka! </tresc>
+					</recenzja>
+				</recenzje_gry>
+			</gra>
+			<gra>
+				<tytul>Euro Track Simulator</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>Assasins Creed - Black Flag</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+			<gra>
+				<tytul>Fuarkolandia</tytul>
+				<srednia_ocena_gry>0.00</srednia_ocena_gry>
+			</gra>
+		</zestawienie_gier>
+	</statystyki>
+	<data_utworzenia_raportu>06/05/2019 07:33</data_utworzenia_raportu>
+</raport>
