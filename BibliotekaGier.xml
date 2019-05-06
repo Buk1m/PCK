@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/css" href="styl.css" ?>
+<?xml-stylesheet type="text/xsl" href="bibliotekaGier.xsl" ?>
 <BibliotekaGier xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gamelib.org/types" xsd:schemaLocation="http://www.gamelib.org/types BibliotekaGier.xsd">
     <AutorzyDokumentu>
         <Autor>
@@ -18,144 +18,165 @@
             <Tytul>BioShock Infinite</Tytul>
             <Wydawca>2k Games</Wydawca>
             <Producent>Irrational Games</Producent>
+            <Cena>34.99</Cena>
             <Opis>Gra akcji z widokiem z perspektywy pierwszej osoby (FPP), bedaca spin-offem serii BioShock. Tytul wyprodukowany zostal przez studio deweloperskie Irrational Games przy wsparciu wydawniczym firmy 2K Games.</Opis>
-            <sredniaOcena>9.6</sredniaOcena>
+            <OcenaKrytyka>9.6</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G2" RokWydania="2013" Gatunek="FPS" Platforma="PC" PEGI="18">
             <Tytul>System Shock 2</Tytul>
             <Wydawca>EA Games</Wydawca>
             <Producent>Irrational Games</Producent>
+            <Cena>79.99</Cena>
             <Opis>Kontynuacja wysoko ocenianej gry akcji z elementami RPG, laczacej cechy klasycznego science fiction ze stylistyka cyberpunkowa. Za jej powstanie odpowiadaja ponownie deweloperzy ze studia Looking Glass, wspierani tym razem dodatkowo przez ekipe Irrational Games.</Opis>
-            <sredniaOcena>6.2</sredniaOcena>
+            <OcenaKrytyka>6.2</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G3" RokWydania="2017" Gatunek="Akcji" Platforma="PS4">
             <Tytul>Horizon Zero Dawn</Tytul>
             <Wydawca>Sony Interactive </Wydawca>
             <Producent>Guerrilla Games</Producent>
+            <Cena>59.99</Cena>
             <Opis>Trzecioosobowa gra akcji z elementami RPG, za ktorej powstanie odpowiada znana z serii Killzone ekipa Guerrilla Games.</Opis>
-            <sredniaOcena>7.7</sredniaOcena>
+            <OcenaKrytyka>7.7</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G4" RokWydania="2011" Gatunek="RPG" Platforma="PC">
             <Tytul>The Elder Scrolls V: Skyrim</Tytul>
             <Wydawca>Bethesda</Wydawca>
             <Producent>Bethesda</Producent>
+            <Cena>49.99</Cena>
             <Opis>Zrealizowana z dużym rozmachem gra action-RPG, bedaca piata czescia popularnego cyklu The Elder Scrolls. Produkcja studia Bethesda Softworks pozwala graczom ponownie przeniesc sie do fantastycznego swiata Nirn.</Opis>
-            <sredniaOcena>8.1</sredniaOcena>
+            <OcenaKrytyka>8.1</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G5" RokWydania="2018" Gatunek="Platformowki" Platforma="Switch">
             <Tytul>Hollow Knight</Tytul>
             <Wydawca>Team Cherry</Wydawca>
             <Producent>Team Cherry</Producent>
+            <Cena>54.99</Cena>
             <Opis>Należaca do gatunku metroidvanii dwuwymiarowa platformowka autorstwa niezależnego Team Cherry. Akcja Hollow Knight przenosi nas do fantastycznego swiata: podziemi, jakie rozciagaja sie pod miasteczkiem Dirtmouth.</Opis>
-            <sredniaOcena>6.2</sredniaOcena>
+            <OcenaKrytyka>6.2</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G6" RokWydania="2012" Gatunek="FPS" Platforma="X360">
             <Tytul>Halo 4</Tytul>
             <Wydawca>Microsoft Sudios</Wydawca>
             <Producent>343Industries</Producent>
-            <sredniaOcena>3.6</sredniaOcena>
+            <Cena>79.99</Cena>
+            <OcenaKrytyka>3.6</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G7" RokWydania="2018" Gatunek="Akcji" Platforma="XONE">
             <Tytul>Red Dead Redemption 2</Tytul>
             <Wydawca>RockstarGames</Wydawca>
             <Producent>RockstarGames</Producent>
+            <Cena>220.49</Cena>
             <Opis>Trzecia czesc serii Red Dead, a zarazem prequel bestsellerowego Red Dead Redemption.</Opis>
-            <sredniaOcena>1.6</sredniaOcena>
+            <OcenaKrytyka>1.6</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G8" RokWydania="2011" Gatunek="Wyscigi" Platforma="3DS">
             <Tytul>Mario Kart 7</Tytul>
             <Wydawca>Nintendo</Wydawca>
             <Producent>Nintendo</Producent>
             <Producent>Bandai</Producent>
-            <sredniaOcena>4.3</sredniaOcena>
+            <Cena>84.49</Cena>
+            <OcenaKrytyka>4.3</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G9" RokWydania="2011" Gatunek="RPG" Platforma="PS3" PEGI="12">
             <Tytul>Mass Effect 2</Tytul>
             <Wydawca>Electronic Arts</Wydawca>
             <Producent>BioWare</Producent>
+            <Cena>42.49</Cena>
             <Opis>Kontynuacja bestsellerowej gry RPG akcji studia BioWare, opowiadajaca o dalszych losach komandora Sheparda. Po tym, jak Normandia pada ofiara ataku insektoidalnej rasy Zbieraczy, jej zaloga zostaje rozproszona, zas sam komandor ginie.</Opis>
-            <sredniaOcena>10.0</sredniaOcena>
+            <OcenaKrytyka>10.0</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G10" RokWydania="2009" Gatunek="Bijatyki" Platforma="PSP">
             <Tytul>Tekken 6</Tytul>
             <Wydawca>Bandai Namco</Wydawca>
             <Producent>Bandai Namco</Producent>
+            <Cena>64.49</Cena>
             <Opis>Kolejna odslona popularnej bijatyki, a zarazem pierwsza, ktora zostala wydana nie tylko na konsoli z rodziny PlayStation. Fabula Tekkena 6 nawiazuje do wydarzen z czesci piatej.</Opis>
-            <sredniaOcena>5.5</sredniaOcena>
+            <OcenaKrytyka>5.5</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G11" RokWydania="2015" Gatunek="RPG" Platforma="PS4">
             <Tytul>Bloodborne</Tytul>
             <Wydawca>Sony Interactive</Wydawca>
             <Producent>From Software</Producent>
+            <Cena>129.99</Cena>
             <Opis>Klasyczne RPG akcji, stanowiace duchowa kontynuacje bestsellerowej serii Dark Souls oraz jej poprzedniczki, Demon’s Souls. Gra zostala opracowana przez tworce wspomnianych produkcji – Hidetakiego Miyazakiego i jego studio From Software.</Opis>
-            <sredniaOcena>7.1</sredniaOcena>
+            <OcenaKrytyka>7.1</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G12" RokWydania="2018" Gatunek="Akcji" Platforma="PS4">
             <Tytul>God of War</Tytul>
             <Wydawca>Sony Interactive</Wydawca>
             <Producent>Sony Interactive</Producent>
+            <Cena>199.99</Cena>
             <Opis>Czwarta pelnoprawna odslona slynnej serii trzecioosobowych gier akcji w konwencji hack-and-slash, stanowiacej od lat jeden z najważniejszych tytulow ekskluzywnych kolejnych generacji konsol firmy Sony.</Opis>
-            <sredniaOcena>8.5</sredniaOcena>
+            <OcenaKrytyka>8.5</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G13" RokWydania="2015" Gatunek="RPG" Platforma="PC">
             <Tytul>Wiedźmin 3: Dziki Gon</Tytul>
             <Wydawca>CDP</Wydawca>
             <Producent>CD Projekt RED</Producent>
+            <Cena>64.49</Cena>
             <Opis>Gra action RPG, stanowiaca trzecia czesc przygod Geralta z Rivii. Podobnie jak we wczesniejszych odslonach cyklu, Wiedźmin 3: Dziki Gon bazuje na motywach tworczosci literackiej Andrzeja Sapkowskiego, jednak nie jest bezposrednia adaptacja żadnej z jego ksiażek.</Opis>
-            <sredniaOcena>6.9</sredniaOcena>
+            <OcenaKrytyka>6.9</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G14" RokWydania="2019" Gatunek="Bijatyki" Platforma="XONE">
             <Tytul>Mortal Kombat 11</Tytul>
             <Wydawca>Warner Bros</Wydawca>
             <Producent>NetherRealm Studios</Producent>
-            <sredniaOcena>2.1</sredniaOcena>
+            <Cena>34.99</Cena>
+            <OcenaKrytyka>2.1</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G15" RokWydania="2011" Gatunek="Logiczne" Platforma="X360" PEGI="7">
             <Tytul>Portal 2</Tytul>
             <Wydawca>ElectronicArts</Wydawca>
             <Producent>Valve Software</Producent>
-            <sredniaOcena>3.7</sredniaOcena>
+            <Cena>24.99</Cena>
+            <OcenaKrytyka>3.7</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G16" RokWydania="2004" Gatunek="FPS" Platforma="PC">
             <Tytul>Half Life 2</Tytul>
             <Wydawca>Sierra</Wydawca>
             <Producent>Valve Software</Producent>
             <Producent>Entertaiment Software</Producent>
+            <Cena>19.99</Cena>
             <Opis>Kontynuacja bestsellerowej produkcji studia Valve Software, ktora w 1998 roku wyznaczyla nowe standardy w gatunku strzelanin FPS.</Opis>
-            <sredniaOcena>9.1</sredniaOcena>
+            <OcenaKrytyka>9.1</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G17" RokWydania="2004" Gatunek="MMO" Platforma="PC">
             <Tytul>World of Warcraft</Tytul>
             <Wydawca>Blizzard Entertaiment</Wydawca>
             <Producent>Blizzard Entertaiment</Producent>
+            <Cena>69.99</Cena>
             <Opis>Epicka gra z gatunku MMORPG, ktorej akcje osadzono w uniwersum znanym z kultowej serii RTS-ow fantasy firmy Blizzard.</Opis>
-            <sredniaOcena>4.4</sredniaOcena>
+            <OcenaKrytyka>4.4</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G18" RokWydania="2007" Gatunek="MMO" Platforma="PC" PEGI="3">
             <Tytul>Metin 2</Tytul>
             <Wydawca>Gameforge</Wydawca>
             <Producent>SilverBirch Studios</Producent>
+            <Cena>0.0</Cena>
             <Opis>Metin2 to kolejny przedstawiciel gatunku darmowych gier MMORPG, niewymagajacych uiszczania comiesiecznego abonamentu.</Opis>
-            <sredniaOcena>10.0</sredniaOcena>
+            <OcenaKrytyka>10.0</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G19" RokWydania="2019" Gatunek="Symulacje" Platforma="PC">
             <Tytul>Euro Track Simulator</Tytul>
             <Wydawca>SCS Software</Wydawca>
             <Producent>Rondomedia</Producent>
-            <sredniaOcena>6.6</sredniaOcena>
+            <Cena>100.0</Cena>
+            <OcenaKrytyka>6.6</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G20" RokWydania="2019" Gatunek="Symulacje" Platforma="PC">
             <Tytul>Assasins Creed - Black Flag</Tytul>
             <Wydawca>Ubisoft</Wydawca>
             <Producent>Ubisoft</Producent>
-            <sredniaOcena>6.6</sredniaOcena>
+            <Cena>99.99</Cena>
+            <OcenaKrytyka>6.6</OcenaKrytyka>
         </Gra>
         <Gra IdGry="G21" RokWydania="2019" Gatunek="Przygodowe" Platforma="PC">
             <Tytul>Fuarkolandia</Tytul>
             <Wydawca>Szkopinski Games</Wydawca>
             <Wydawca>JolaSupport Games</Wydawca>
             <Producent>Szkopinski INC.</Producent>
-            <sredniaOcena>10.0</sredniaOcena>
+            <Cena>239.99</Cena>
+            <OcenaKrytyka>10.0</OcenaKrytyka>
         </Gra>
     </ListaGier>
     <Gracze>
@@ -205,49 +226,49 @@
             <Tytul>Super gra</Tytul>
             <TrescRecenzji>Gra jest super duper.</TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
-            <Ocena Wartosc="8"></Ocena>
+            <Ocena Wartosc="8"/>
         </Recenzja>
         <Recenzja IdGry="G2" IdGracza="Gr3">
             <Tytul>Nic tylko jezdzic</Tytul>
             <TrescRecenzji>Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.</TrescRecenzji>
             <DataRecenzji Dzien="16" Miesiac="3" Rok="2018" />
-            <Ocena Wartosc="7"></Ocena>
+            <Ocena Wartosc="7"/>
         </Recenzja>
         <Recenzja IdGry="G2" IdGracza="Gr10">
             <Tytul>Bohaterowie swiata</Tytul>
             <TrescRecenzji>Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że nie wie, bo nie jest kierowca tira.</TrescRecenzji>
             <DataRecenzji Dzien="16" Miesiac="3" Rok="2018" />
-            <Ocena Wartosc="9"></Ocena>
+            <Ocena Wartosc="9"/>
         </Recenzja>
         <Recenzja IdGry="G3" IdGracza="Gr2">
             <Tytul>Rewelacja!</Tytul>
             <TrescRecenzji>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.</TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
-            <Ocena Wartosc="10"></Ocena>
+            <Ocena Wartosc="10"/>
         </Recenzja>
         <Recenzja IdGry="G14" IdGracza="Gr5">
             <Tytul>Moglo byc lepiej!</Tytul>
             <TrescRecenzji>Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to max 6/10</TrescRecenzji>
             <DataRecenzji Dzien="4" Miesiac="1" Rok="2018" />
-            <Ocena Wartosc="5"></Ocena>
+            <Ocena Wartosc="5"/>
         </Recenzja>
         <Recenzja IdGry="G5" IdGracza="Gr5">
             <Tytul>Plotka!</Tytul>
             <TrescRecenzji>Dużo bugow, spadalem z konia. Slaba mechanika.</TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2017" />
-            <Ocena Wartosc="3"></Ocena>
+            <Ocena Wartosc="3"/>
         </Recenzja>
         <Recenzja IdGry="G6" IdGracza="Gr6">
             <Tytul>Grafika nie zachwyca!</Tytul>
             <TrescRecenzji>Nie podobala mi sie. Grafika lepsza w Minecrafcie.</TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
-            <Ocena Wartosc="2"></Ocena>
+            <Ocena Wartosc="2"/>
         </Recenzja>
         <Recenzja IdGry="G12" IdGracza="Gr1">
             <Tytul>Za trudna!</Tytul>
             <TrescRecenzji>Gralem na latwym a i tak nie moglem przejsc poczatkowych poziomow.</TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
-            <Ocena Wartosc="4"></Ocena>
+            <Ocena Wartosc="4"/>
         </Recenzja>
         <Recenzja IdGry="G7" IdGracza="Gr10">
             <Tytul>Jaka jest miara lepszosci?</Tytul>
@@ -258,37 +279,37 @@
             <Tytul>Pozdrawiam Andrzej!</Tytul>
             <TrescRecenzji>Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej. </TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
-            <Ocena Wartosc="10"></Ocena>
+            <Ocena Wartosc="10"/>
         </Recenzja>
         <Recenzja IdGry="G14" IdGracza="Gr10">
             <Tytul>Zagralbym jeszcze raz.</Tytul>
             <TrescRecenzji>Gralo mi sie fajnie ale nie wiem na ile bo nie znam miary.</TrescRecenzji>
             <DataRecenzji Dzien="7" Miesiac="12" Rok="2010" />
-            <Ocena Wartosc="9"></Ocena>
+            <Ocena Wartosc="9"/>
         </Recenzja>
         <Recenzja IdGry="G6" IdGracza="Gr6">
             <Tytul> Caly czas tluklem! Cale noce cale dnie!</Tytul>
             <TrescRecenzji>Zmarnowalem 100 godzin życia, nie grajcie w te gre.</TrescRecenzji>
             <DataRecenzji Dzien="17" Miesiac="8" Rok="2012" />
-            <Ocena Wartosc="5"></Ocena>
+            <Ocena Wartosc="5"/>
         </Recenzja>
         <Recenzja IdGry="G17" IdGracza="Gr9">
             <Tytul>Zniszczyla mi życie.</Tytul>
             <TrescRecenzji>Rzucilem studia żeby wbijac wyższy level. Nie zaluje!</TrescRecenzji>
             <DataRecenzji Dzien="1" Miesiac="2" Rok="2019" />
-            <Ocena Wartosc="9"></Ocena>
+            <Ocena Wartosc="9"/>
         </Recenzja>
         <Recenzja IdGry="G18" IdGracza="Gr10">
             <Tytul>Poluruje na orkach CH4</Tytul>
             <TrescRecenzji>Nietstey malo serwerow. Dodawajcie mnie w grze nick: LurkaSzamanka! </TrescRecenzji>
             <DataRecenzji Dzien="5" Miesiac="9" Rok="2019" />
-            <Ocena Wartosc="5"></Ocena>
+            <Ocena Wartosc="5"/>
         </Recenzja>
         <Recenzja IdGry="G15" IdGracza="Gr10">
             <Tytul> I to ma byc gra AAA?</Tytul>
             <TrescRecenzji>Napisalbym lepsza w tydzien.</TrescRecenzji>
             <DataRecenzji Dzien="16" Miesiac="6" Rok="2014" />
-            <Ocena Wartosc="1"></Ocena>
+            <Ocena Wartosc="1"/>
         </Recenzja>
         <Recenzja IdGry="G13" IdGracza="Gr10">
             <Tytul>Niesamowita</Tytul>

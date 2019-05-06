@@ -10,7 +10,7 @@
           <xs:enumeration value="Akcji" />
           <xs:enumeration value="FPS" />
           <xs:enumeration value="Horror" />
-          <xs:enumeration value="Surrvival" />
+          <xs:enumeration value="Survival" />
           <xs:enumeration value="Zrecznosciowe" />
           <xs:enumeration value="Strategiczne" />
           <xs:enumeration value="RPG" />
@@ -72,7 +72,15 @@
       <xs:element name="Producent" maxOccurs="unbounded" minOccurs="0">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:maxLength value="50"></xs:maxLength>
+            <xs:maxLength value="50"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Cena">
+        <xs:simpleType>
+          <xs:restriction base="xs:float">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="400" />
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
@@ -83,12 +91,11 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
-      <xs:element name="sredniaOcena">
+      <xs:element name="OcenaKrytyka">
         <xs:simpleType>
           <xs:restriction base="xs:float">
             <xs:minInclusive value="0" />
             <xs:maxInclusive value="10" />
-            <xs:>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
