@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg:svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg:svg width="1000" height="2280" font-family="Calibri" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+    <svg:title>Raport</svg:title>
+    <svg:desc>Witaj w bibliotece gier</svg:desc>
+    <script type="text/javascript">
+
+        function onClickAutorzy(evt) {
+        var element = document.getElementById("autorzy");
+        var atrybut = element.getAttribute("visibility");
+        if(atrybut === "visible"){
+        element.setAttribute("visibility", "hidden");
+        }else{
+        element.setAttribute("visibility", "visible");
+        }
+        }
+    </script>
+    <style>
+        .bar:hover
+        {
+        fill: #71B280;
+        }
+
+        .button:hover
+        {
+        fill: #71B280;
+        }
+
+        .wykres_tlo:hover
+        {
+        fill: #575757;
+        }
+    </style>
+    <svg:defs>
+        <svg:linearGradient id="bg-darker">
+            <svg:stop offset="0%" style="stop-color: #000000;"/>
+            <svg:stop offset="100%" style="stop-color: #434343;"/>
+        </svg:linearGradient>
+        <svg:linearGradient id="bg">
+            <svg:stop offset="0%" style="stop-color: #000000;"/>
+            <svg:stop offset="100%" style="stop-color: #323232;"/>
+        </svg:linearGradient>
+        <svg:linearGradient id="bar">
+            <svg:stop offset="0%" style="stop-color: #134E5E;"/>
+            <svg:stop offset="100%" style="stop-color: #71B280;"/>
+        </svg:linearGradient>
+    </svg:defs>
+    <svg:rect x="0" y="0" width="860" height="1360" rx="10" ry="10" fill="url(#bg)"/>
+    <svg:g id="autorzy_pliku" width="100" height="60" onclick="onClickAutorzy(evt)" cursor="pointer">
+        <svg:rect x="15" y="20" class="button" width="100" height="32" fill="url(#bar)" stroke="black" rx="10" ry="10"/>
+        <svg:text x="40" y="41" fill="white" font-size="16">Autorzy</svg:text>
+    </svg:g>
+    <svg:g id="autorzy" visibility="hidden">
+        <svg:rect x="130" y="20" width="600" height="30" fill="url(#bar)" stroke="black"/>
+        <svg:text x="420" y="40" font-size="16" fill="white" text-anchor="middle">Bartosz Kudra 210239 Adam Lindner 210253 </svg:text>
+    </svg:g>
+    <svg:g id="rect">
+        <svg:rect x="130" y="90" height="1220" width="600" fill="#323232" stroke="black"/>
+        <svg:text x="430" y="130" font-size="16" fill="white" font-weight="bold" text-anchor="middle">
+            Podział gier według gatunku
+        </svg:text>
+    </svg:g>
+    <svg:g id="figure" class="bar">
+        <svg:text y="165" x="200" fill="white" font-size="10" text-anchor="left">Liczba gier: </svg:text>
+        <svg:g id="liczba_gier" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="170" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="460" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="187" x="430" opacity="0" fill="white" font-size="16" text-anchor="middle">21<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="187" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba gier: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier.mouseover" end="liczba_gier.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="225" x="200" fill="white" font-size="10" text-anchor="left">Liczba graczy: </svg:text>
+        <svg:g id="liczba_graczy" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="230" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="219.04761904761904" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="247" x="309.5238095238095" opacity="0" fill="white" font-size="16" text-anchor="middle">10<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="247" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba graczy: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_graczy.mouseover" end="liczba_graczy.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="285" x="200" fill="white" font-size="10" text-anchor="left">Liczba recenzji: </svg:text>
+        <svg:g id="liczba_recenzji" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="290" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="350.4761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="307" x="375.23809523809524" opacity="0" fill="white" font-size="16" text-anchor="middle">16<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="307" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba recenzji: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_recenzji.mouseover" end="liczba_recenzji.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="345" x="200" fill="white" font-size="10" text-anchor="left">Liczba bijatyk: </svg:text>
+        <svg:g id="liczba_bijatyk" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="350" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="43.80952380952381" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="367" x="221.9047619047619" opacity="0" fill="white" font-size="16" text-anchor="middle">2<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="367" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba bijatyk: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_bijatyk.mouseover" end="liczba_bijatyk.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="405" x="200" fill="white" font-size="10" text-anchor="left">Liczba akcji: </svg:text>
+        <svg:g id="liczba_gier_akcji" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="410" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="65.71428571428571" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="427" x="232.85714285714286" opacity="0" fill="white" font-size="16" text-anchor="middle">3<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="427" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba akcji: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_akcji.mouseover" end="liczba_gier_akcji.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="465" x="200" fill="white" font-size="10" text-anchor="left">Liczba FPS: </svg:text>
+        <svg:g id="liczba_gier_FPS" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="470" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="65.71428571428571" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="487" x="232.85714285714286" opacity="0" fill="white" font-size="16" text-anchor="middle">3<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="487" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba FPS: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_FPS.mouseover" end="liczba_gier_FPS.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="525" x="200" fill="white" font-size="10" text-anchor="left">Liczba horror: </svg:text>
+        <svg:g id="liczba_gier_horror" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="530" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="21.904761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="547" x="210.95238095238096" opacity="0" fill="white" font-size="16" text-anchor="middle">1<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="547" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba horror: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_horror.mouseover" end="liczba_gier_horror.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="585" x="200" fill="white" font-size="10" text-anchor="left">Liczba survival: </svg:text>
+        <svg:g id="liczba_gier_survival" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="590" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="0" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="607" x="200" opacity="0" fill="white" font-size="16">brak<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="607" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba survival: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_survival.mouseover" end="liczba_gier_survival.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="645" x="200" fill="white" font-size="10" text-anchor="left">Liczba zrecznosciowe: </svg:text>
+        <svg:g id="liczba_gier_zrecznosciowe" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="650" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="0" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="667" x="200" opacity="0" fill="white" font-size="16">brak<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="667" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba zrecznosciowe: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_zrecznosciowe.mouseover" end="liczba_gier_zrecznosciowe.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="705" x="200" fill="white" font-size="10" text-anchor="left">Liczba strategiczne: </svg:text>
+        <svg:g id="liczba_gier_strategiczne" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="710" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="0" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="727" x="200" opacity="0" fill="white" font-size="16">brak<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="727" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba strategiczne: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_strategiczne.mouseover" end="liczba_gier_strategiczne.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="765" x="200" fill="white" font-size="10" text-anchor="left">Liczba RPG: </svg:text>
+        <svg:g id="liczba_gier_RPG" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="770" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="87.61904761904762" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="787" x="243.8095238095238" opacity="0" fill="white" font-size="16" text-anchor="middle">4<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="787" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba RPG: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_RPG.mouseover" end="liczba_gier_RPG.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="825" x="200" fill="white" font-size="10" text-anchor="left">Liczba przygodowe: </svg:text>
+        <svg:g id="liczba_gier_przygodowe" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="830" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="21.904761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="847" x="210.95238095238096" opacity="0" fill="white" font-size="16" text-anchor="middle">1<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="847" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba przygodowe: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_przygodowe.mouseover" end="liczba_gier_przygodowe.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="885" x="200" fill="white" font-size="10" text-anchor="left">Liczba platformowki: </svg:text>
+        <svg:g id="liczba_gier_platformowki" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="890" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="21.904761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="907" x="210.95238095238096" opacity="0" fill="white" font-size="16" text-anchor="middle">1<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="907" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba platformowki: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_platformowki.mouseover" end="liczba_gier_platformowki.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="945" x="200" fill="white" font-size="10" text-anchor="left">Liczba sportowe: </svg:text>
+        <svg:g id="liczba_gier_sportowe" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="950" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="0" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="967" x="200" opacity="0" fill="white" font-size="16">brak<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="967" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba sportowe: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_sportowe.mouseover" end="liczba_gier_sportowe.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="1005" x="200" fill="white" font-size="10" text-anchor="left">Liczba wyscigi: </svg:text>
+        <svg:g id="liczba_gier_wyscigi" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="1010" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="21.904761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="1027" x="210.95238095238096" opacity="0" fill="white" font-size="16" text-anchor="middle">1<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="1027" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba wyscigi: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_wyscigi.mouseover" end="liczba_gier_wyscigi.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="1065" x="200" fill="white" font-size="10" text-anchor="left">Liczba symulacje: </svg:text>
+        <svg:g id="liczba_gier_symulacje" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="1070" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="43.80952380952381" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="1087" x="221.9047619047619" opacity="0" fill="white" font-size="16" text-anchor="middle">2<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="1087" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba symulacje: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_symulacje.mouseover" end="liczba_gier_symulacje.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="1125" x="200" fill="white" font-size="10" text-anchor="left">Liczba logiczne: </svg:text>
+        <svg:g id="liczba_gier_logiczne" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="1130" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="21.904761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="1147" x="210.95238095238096" opacity="0" fill="white" font-size="16" text-anchor="middle">1<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="1147" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba logiczne: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_logiczne.mouseover" end="liczba_gier_logiczne.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="1185" x="200" fill="white" font-size="10" text-anchor="left">Liczba wyscigi: </svg:text>
+        <svg:g id="liczba_gier_wyscigi" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="1190" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="21.904761904761905" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="1207" x="210.95238095238096" opacity="0" fill="white" font-size="16" text-anchor="middle">1<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="1207" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba wyscigi: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_wyscigi.mouseover" end="liczba_gier_wyscigi.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+        <svg:text y="1245" x="200" fill="white" font-size="10" text-anchor="left">Liczba MMO: </svg:text>
+        <svg:g id="liczba_gier_MMO" visibility="visible">
+            <svg:rect class="bar" fill="url(#bar)" y="1250" x="200" height="25">
+                <svg:animate id="bar-animation" attributeName="width" from="1" to="43.80952380952381" dur="2s" fill="freeze"/>
+            </svg:rect>
+            <svg:text y="1267" x="221.9047619047619" opacity="0" fill="white" font-size="16" text-anchor="middle">2<svg:animate id="label-animation" attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s;" fill="freeze"/>
+            </svg:text>
+            <svg:svg>
+                <text id="thepopup" x="180" y="1267" text-anchor="end" font-size="18" fill="white" visibility="hidden">Liczba MMO: <set attributeName="visibility" from="hidden" to="visible" begin="liczba_gier_MMO.mouseover" end="liczba_gier_MMO.mouseout"/>
+                </text>
+            </svg:svg>
+        </svg:g>
+    </svg:g>
+</svg:svg>
