@@ -24,9 +24,9 @@
                 <liczba_recenzji>
                     <xsl:value-of select="count(Recenzje/Recenzja)"/>
                 </liczba_recenzji>
-                <liczba_bijatyk>
+                <liczba_gier_bijatyk>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Bijatyki'])"/>
-                </liczba_bijatyk>
+                </liczba_gier_bijatyk>
                 <liczba_gier_akcji>
                     <xsl:value-of select="count(ListaGier/Gra[@Gatunek='Akcji'])"/>
                 </liczba_gier_akcji>

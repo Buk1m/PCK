@@ -3,6 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 	<xsl:output method="text" encoding="UTF-8"/>
 	<xsl:variable name="indent-size" select="4" />
+	<xsl:variable name="spaces" select="'                                                        '"/>
 	<xsl:template match="/">
 		<xsl:text>## STATYSTYKI BIBLIOTEKI ##&#xA;</xsl:text>
 		<xsl:for-each select="//statystyki/*[starts-with(name(), 'liczba')][position() &lt;= 3]">
@@ -22,6 +23,7 @@
 				<xsl:with-param name="marker" select="'_'"/>
 			</xsl:call-template>
 			<xsl:text>: </xsl:text>
+			<xsl:value-of select="substring($spaces,0,30-string-length(name()))"/>
 			<xsl:value-of select="."/>
 			<xsl:text>&#xA;</xsl:text>
 		</xsl:for-each>

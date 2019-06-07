@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:layout-master-set>
+        <fo:simple-page-master master-name="BibliotekaGier" margin-top="1.5cm" margin-bottom="2cm" margin-left="2cm"
+                               margin-right="2cm">
+            page-height="29.7cm"
+            page-width="21cm"
+            <fo:region-body margin-top="2cm"/>
+            <fo:region-before extent="3cm"/>
+            <fo:region-after extent="1.5cm"/>
+            <fo:region-start extent="0.5cm"/>
+            <fo:region-end extent="0.5cm"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    <fo:page-sequence master-reference="BibliotekaGier">
+        <fo:static-content flow-name="xsl-region-before">
+            <fo:block text-align="center" font-family="calibri" font-size="22px">
+                <fo:block text-align="right" font-family="monospace" font-size="8px">06/05/2019 07:33</fo:block>
+                <fo:block font-weight="bold">Biblioteka gier</fo:block>
+            </fo:block>
+        </fo:static-content>
+        <fo:static-content flow-name="xsl-region-after">
+            <fo:block text-align="center" font-family="monospace" margin-top="2cm" font-size="8px">Strona:
+                <fo:page-number/>
+            </fo:block>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block text-align="center" font-family="calibri" font-size="22px">Autorzy dokumentu:</fo:block>
+            <fo:list-block>
+                <fo:list-item>
+                    <fo:list-item-label>
+                        <fo:block>*</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body>
+                        <fo:block margin-left="0.5cm">Bartosz Kudra 210239</fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
+                <fo:list-item>
+                    <fo:list-item-label>
+                        <fo:block>*</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body>
+                        <fo:block margin-left="0.5cm">Adam Lindner 210253</fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
+            </fo:list-block>
+            <fo:block font-size="12px" text-align="left" font-family="verdana">
+                <fo:block font-size="14px" text-align="center" font-weight="bold" margin-bottom="10px">Statystyki
+                </fo:block>
+                <fo:block font-size="12px" text-align="left" font-weight="bold" margin-bottom="10px">Ogolne:</fo:block>
+                <fo:table border="solid black" width="100%" font-size="8px">
+                    <fo:table-header>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block font-weight="bold" text-align="center">Gatunek</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block font-weight="bold" text-align="center">Ilość</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    </fo:table-header>
+                    <fo:table-body>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">graczy</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">10</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">recenzji</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">16</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">gier</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">21</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    </fo:table-body>
+                </fo:table>
+                <fo:block font-size="12px" text-align="left" font-weight="bold" margin-bottom="10px" margin-top="1cm">
+                    Gier:
+                </fo:block>
+                <fo:table border="solid black" width="100%" font-size="8px">
+                    <fo:table-header>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block font-weight="bold" text-align="center">Gatunek</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block font-weight="bold" text-align="center">Ilość</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    </fo:table-header>
+                    <fo:table-body>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">survival</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">zrecznosciowe</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">strategiczne</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">sportowe</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">horror</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">przygodowe</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">platformowki</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">wyscigi</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">logiczne</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">wyscigi</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">bijatyk</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">2</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">symulacje</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">2</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">MMO</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">2</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">akcji</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">3</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">FPS</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">3</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">RPG</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">4</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    </fo:table-body>
+                </fo:table>
+            </fo:block>
+            <fo:block margin-top="20px">Całkowita wartość gier:1756.31</fo:block>
+            <fo:block page-break-before="always"/>
+            <fo:block font-size="12px" text-align="left" font-family="verdana">
+                <fo:block font-size="14px" text-align="center" font-weight="bold" margin-top="1.2cm"
+                          margin-bottom="10px">Zestawienie gier
+                </fo:block>
+                <fo:table border="solid black" width="100%" font-size="8px">
+                    <fo:table-header>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block font-weight="bold" text-align="center">Tytul</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block font-weight="bold" text-align="center">Srednia ocena</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    </fo:table-header>
+                    <fo:table-body>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Assasins Creed - Black Flag</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">BioShock Infinite</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">8.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Bloodborne</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Euro Track Simulator</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Fuarkolandia</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">God of War</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">4.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Half Life 2</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Halo 4</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">3.50</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Hollow Knight</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">3.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Horizon Zero Dawn</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">10.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Mario Kart 7</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">10.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Mass Effect 2</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Metin 2</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">5.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Mortal Kombat 11</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">7.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Portal 2</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">1.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Red Dead Redemption 2</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">System_Shock 2</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">8.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Tekken 6</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">The Elder Scrolls V: Skyrim</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">Wiedźmin 3: Dziki Gon</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">0.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">World of Warcraft</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell border="solid black">
+                                <fo:block text-align="center">9.00</fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    </fo:table-body>
+                </fo:table>
+            </fo:block>
+            <fo:block font-size="14px" text-align="center" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Recenzje graczy:
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                BioShock Infinite
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: PostAdam Tytuł: Super gra Treść: Gra jest super duper. </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                System_Shock 2
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Anakinud Tytuł: Nic tylko jezdzic Treść: Gra bardzo fajna i relaksujaca,
+                sporo jeżdżenia, sporo dostarczania towarow. W sam raz by siasc, odpoczac i przejechac jedna czy dwie
+                trasy podczas sesji.
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Doktor Tytuł: Bohaterowie swiata Treść: Moj wujek jest lekarzem i
+                spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że nie wie, bo nie jest kierowca tira.
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Horizon Zero Dawn
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Bukim Tytuł: Rewelacja! Treść: Gra rewelacja! Oprawa auduowizualna na
+                mega poziomie! Z czystym sumieniem polecam.
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Hollow Knight
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Cirrus Tytuł: Plotka! Treść: Dużo bugow, spadalem z konia. Slaba
+                mechanika. 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">Halo
+                4
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: MikeW Tytuł: Grafika nie zachwyca! Treść: Nie podobala mi sie. Grafika
+                lepsza w Minecrafcie. 
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: MikeW Tytuł: Caly czas tluklem! Cale noce cale dnie! Treść: Zmarnowalem
+                100 godzin życia, nie grajcie w te gre. 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">Red
+                Dead Redemption 2
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Doktor Tytuł: Jaka jest miara lepszosci? Treść: Nie ocenie, bo nie ma
+                miary. 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Mario Kart 7
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: DeathBringer Tytuł: Pozdrawiam Andrzej! Treść: Najlepsza gra w jaka
+                gralem. Polecam każdemu. Pozdrawiam Andrzej.
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">God
+                of War
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: PostAdam Tytuł: Za trudna! Treść: Gralem na latwym a i tak nie moglem
+                przejsc poczatkowych poziomow. 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Wiedźmin 3: Dziki Gon
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Doktor Tytuł: Niesamowita Treść: Niewymierna </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Mortal Kombat 11
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Cirrus Tytuł: Moglo byc lepiej! Treść: Zwykly sredniak, w dzisiejszych
+                czasach wystarczy zrobic EX'a + ladna grafika + open world i gierka na start ma 8/10. Zawiodlem sie, bo
+                ludzie hypowali gierke mocno wg mnie to max 6/10
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Doktor Tytuł: Zagralbym jeszcze raz. Treść: Gralo mi sie fajnie ale nie
+                wiem na ile bo nie znam miary. 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Portal 2
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Doktor Tytuł: I to ma byc gra AAA? Treść: Napisalbym lepsza w tydzien. 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                World of Warcraft
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: DeathBringer Tytuł: Zniszczyla mi życie. Treść: Rzucilem studia żeby
+                wbijac wyższy level. Nie zaluje! 
+            </fo:block>
+            <fo:block font-size="12px" text-align="left" font-weight="bold" margin-top="1.2cm" margin-bottom="10px">
+                Metin 2
+            </fo:block>
+            <fo:block margin-top="12px">Gracz: Doktor Tytuł: Poluruje na orkach CH4 Treść: Nietstey malo serwerow.
+                Dodawajcie mnie w grze nick: LurkaSzamanka!
+            </fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>

@@ -17,7 +17,7 @@
 		<liczba_gier>21</liczba_gier>
 		<liczba_graczy>10</liczba_graczy>
 		<liczba_recenzji>16</liczba_recenzji>
-		<liczba_bijatyk>2</liczba_bijatyk>
+		<liczba_gier_bijatyk>2</liczba_gier_bijatyk>
 		<liczba_gier_akcji>3</liczba_gier_akcji>
 		<liczba_gier_FPS>3</liczba_gier_FPS>
 		<liczba_gier_horror>1</liczba_gier_horror>
@@ -53,12 +53,12 @@
 					<recenzja>
 						<gracz>Anakinud</gracz>
 						<tytul>Nic tylko jezdzic</tytul>
-						<tresc>Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.</tresc>
+						<tresc>Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by                            siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.                        </tresc>
 					</recenzja>
 					<recenzja>
 						<gracz>Doktor</gracz>
 						<tytul>Bohaterowie swiata</tytul>
-						<tresc>Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że nie wie, bo nie jest kierowca tira.</tresc>
+						<tresc>Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że                            nie wie, bo nie jest kierowca tira.                        </tresc>
 					</recenzja>
 				</recenzje_gry>
 			</gra>
@@ -69,7 +69,7 @@
 					<recenzja>
 						<gracz>Bukim</gracz>
 						<tytul>Rewelacja!</tytul>
-						<tresc>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.</tresc>
+						<tresc>Gra rewelacja! Oprawa auduowizualna na mega poziomie! Z czystym sumieniem polecam.                        </tresc>
 					</recenzja>
 				</recenzje_gry>
 			</gra>
@@ -99,7 +99,7 @@
 					</recenzja>
 					<recenzja>
 						<gracz>MikeW</gracz>
-						<tytul> Caly czas tluklem! Cale noce cale dnie!</tytul>
+						<tytul>Caly czas tluklem! Cale noce cale dnie!</tytul>
 						<tresc>Zmarnowalem 100 godzin życia, nie grajcie w te gre.</tresc>
 					</recenzja>
 				</recenzje_gry>
@@ -167,7 +167,7 @@
 					<recenzja>
 						<gracz>Cirrus</gracz>
 						<tytul>Moglo byc lepiej!</tytul>
-						<tresc>Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to max 6/10</tresc>
+						<tresc>Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open                            world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to                            max 6/10                        </tresc>
 					</recenzja>
 					<recenzja>
 						<gracz>Doktor</gracz>
