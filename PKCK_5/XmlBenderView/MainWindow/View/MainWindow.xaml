@@ -1,0 +1,62 @@
+﻿<Window x:Class="XmlBenderView.MainWindow.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XmlBenderView"
+        mc:Ignorable="d"
+        Title="XML Bender" Height="740" Width="1368"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:editorV="clr-namespace:XmlBenderView.EditorWindow.View"
+        xmlns:editorVm="clr-namespace:XmlBenderView.EditorWindow.ViewModel"
+        xmlns:transformationV="clr-namespace:XmlBenderView.TransformationWindow.View"
+        xmlns:transformationVm="clr-namespace:XmlBenderView.TransformationWindow.ViewModel"
+        DataContext="{Binding MainViewModel, Source={StaticResource Locator}}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+
+        <Grid Margin="50 0 0 0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Grid.Resources>
+                <DataTemplate DataType="{x:Type editorVm:EditorViewModel}">
+                    <editorV:EditorView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type transformationVm:FirstViewModel}">
+                    <transformationV:TransformationView />
+                </DataTemplate>
+            </Grid.Resources>
+            <ContentControl Content="{Binding CurrentViewModel}" />
+        </Grid>
+
+        <!-- Sidebar -->
+        <StackPanel x:Name="Sidebar" MouseEnter="Sidebar_OnMouseEnter" MouseLeave="Sidebar_OnMouseLeave" Width="50"
+                    Grid.Column="0" Background="#4A4F51" HorizontalAlignment="Left">
+            <Button Padding="0" HorizontalContentAlignment="Stretch" Height="50" BorderBrush="Transparent"
+                    Background="Transparent" Foreground="AliceBlue" Command="{Binding ShowEditorView}">
+                <DockPanel>
+                    <materialDesign:PackIcon Margin="10 0 0 0" Kind="Numeric1Box" Width="30" Height="30"
+                                             HorizontalAlignment="Left" />
+                    <TextBlock Margin="10 0 0 0" Text="Editor" VerticalAlignment="Center" />
+                </DockPanel>
+            </Button>
+            <Button Padding="0" HorizontalContentAlignment="Stretch" Height="50" BorderBrush="Transparent"
+                    Background="Transparent" Foreground="AliceBlue" Command="{Binding ShowTransformerView}">
+                <DockPanel>
+                    <materialDesign:PackIcon Margin="10 0 0 0" Kind="Numeric2Box" Width="30" Height="30"
+                                             HorizontalAlignment="Left" />
+                    <TextBlock Margin="10 0 0 0" Text="Transformer" VerticalAlignment="Center" />
+                </DockPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,5 +1,5 @@
 ## STATYSTYKI BIBLIOTEKI ##
-Liczba gier	21
+Liczba gier	    21
 Liczba graczy	10
 Liczba recenzji	16
 
@@ -7,52 +7,52 @@ Liczba recenzji	16
 ## STATYSTYKI GIER ##
 
 ----------------------------
-Liczba bijatyk: 2
+Liczba bijatyk:           2
 
 ----------------------------
-Liczba akcji: 3
+Liczba akcji:             3
 
 ----------------------------
-Liczba FPS: 3
+Liczba FPS:               3
 
 ----------------------------
-Liczba horror: 1
+Liczba horror:            1
 
 ----------------------------
-Liczba survival: 0
+Liczba survival:          0
 
 ----------------------------
-Liczba zrecznosciowe: 0
+Liczba zrecznosciowe:     0
 
 ----------------------------
-Liczba strategiczne: 0
+Liczba strategiczne:      0
 
 ----------------------------
-Liczba RPG: 4
+Liczba RPG:               4
 
 ----------------------------
-Liczba przygodowe: 1
+Liczba przygodowe:        1
 
 ----------------------------
-Liczba platformowki: 1
+Liczba platformowki:      1
 
 ----------------------------
-Liczba sportowe: 0
+Liczba sportowe:          0
 
 ----------------------------
-Liczba wyscigi: 1
+Liczba wyscigi:           1
 
 ----------------------------
-Liczba symulacje: 2
+Liczba symulacje:         2
 
 ----------------------------
-Liczba logiczne: 1
+Liczba logiczne:          1
 
 ----------------------------
-Liczba wyscigi: 1
+Liczba wyscigi:           1
 
 ----------------------------
-Liczba MMO: 2
+Liczba MMO:               2
 
 ## CALKOWITY KOSZT ##
 1756.31
@@ -74,10 +74,10 @@ System_Shock 2
 Recenzje gry:
 Autor:
 Anakinud
-Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.
+Gra bardzo fajna i relaksujaca, sporo jeżdżenia, sporo dostarczania towarow. W sam raz by                            siasc, odpoczac i przejechac jedna czy dwie trasy podczas sesji.
 Autor:
 Doktor
-Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że nie wie, bo nie jest kierowca tira.
+Moj wujek jest lekarzem i spytalem go kiedys jak to jest byc bohaterem, odpowiedzial że                            nie wie, bo nie jest kierowca tira.
 
 ----------------------------
 Horizon Zero Dawn
@@ -119,7 +119,7 @@ Mario Kart 7
 Recenzje gry:
 Autor:
 DeathBringer
-Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej. 
+Najlepsza gra w jaka gralem. Polecam każdemu. Pozdrawiam Andrzej.
 
 ----------------------------
 Mass Effect 2
@@ -152,7 +152,7 @@ Mortal Kombat 11
 Recenzje gry:
 Autor:
 Cirrus
-Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to max 6/10
+Zwykly sredniak, w dzisiejszych czasach wystarczy zrobic EX'a + ladna grafika + open                            world i gierka na start ma 8/10. Zawiodlem sie, bo ludzie hypowali gierke mocno wg mnie to                            max 6/10
 Autor:
 Doktor
 Gralo mi sie fajnie ale nie wiem na ile bo nie znam miary.

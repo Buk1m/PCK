@@ -1,0 +1,223 @@
+﻿<UserControl x:Class="XmlBenderView.EditorWindow.View.EditorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:gameLibModel="clr-namespace:GameLibModel;assembly=GameLibModel"
+             DataContext="{Binding DataLoadingViewModel, Source={StaticResource Locator}}"
+             mc:Ignorable="d"
+             d:DesignHeight="740" d:DesignWidth="1368">
+    <UserControl.Resources>
+        <ObjectDataProvider x:Key="GenresEnum" MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="gameLibModel:Genre" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="PlatformsEnum" MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="gameLibModel:Platform" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="PegiEnum" MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="gameLibModel:PEGI" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel VerticalAlignment="Center" Margin="0,58,0,58">
+            <Label FontWeight="Bold" FontSize="20" HorizontalAlignment="Center">
+                Welcome to Xml Bender!
+            </Label>
+            <Label FontSize="16" HorizontalAlignment="Center">
+                Read xml file to start bending.
+            </Label>
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" Margin="40,100,40,100">
+            <Button Margin="4,24,4,4" HorizontalAlignment="Center" Content="Read XML"
+                    Command="{Binding ReadXmlCommand}" />
+            <Button Margin="4,24,4,4" HorizontalAlignment="Center" Content="Validate"
+                    Command="{Binding ValidateXmlCommand}" />
+            <Button Margin="0 30" HorizontalAlignment="Center" Content="Restore"
+                    Command="{Binding RestoreDocumentCommand}" />
+            <Button Margin="0 30" HorizontalAlignment="Center" Content="Save To File"
+                    Command="{Binding SaveXmlCommand}" />
+            <ComboBox ItemsSource="{Binding GameIds}" />
+        </StackPanel>
+
+        <Border Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Margin="16 8" CornerRadius="8" Background="#373533">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="8" Direction="-90" RenderingBias="Quality" ShadowDepth="1" />
+            </Border.Effect>
+            <Grid>
+                <TabControl Background="Transparent">
+                    <TabItem Header="Games">
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                            <DataGrid
+                                ItemsSource="{Binding GameLibrary.Games }"
+                                CanUserSortColumns="True"
+                                CanUserAddRows="True"
+                                CanUserDeleteRows="True"
+                                AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Binding="{Binding Title}"
+                                        Header="Title" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Publisher}"
+                                        Header="Publisher" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Producer}"
+                                        Header="Producer" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding GameId}"
+                                        Header="GameId" />           
+                                    <DataGridTextColumn
+                                        Binding="{Binding PublishDate}"
+                                        Header="Publish Year" />
+                                    <DataGridComboBoxColumn
+                                        ItemsSource="{Binding Source={StaticResource GenresEnum}}"
+                                        SelectedItemBinding="{Binding Genre}"
+                                        Header="Genre" />
+                                    <DataGridComboBoxColumn
+                                        ItemsSource="{Binding Source={StaticResource PlatformsEnum}}"
+                                        SelectedItemBinding="{Binding Platform}"
+                                        Header="Platform" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Price}"
+                                        Header="Price" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Score}"
+                                        Header="Score" />
+                                    <DataGridComboBoxColumn
+                                        ItemsSource="{Binding Source={StaticResource PegiEnum}}"
+                                        SelectedItemBinding="{Binding Pegi}"
+                                        Header="Pegi" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Description}"
+                                        Header="Description" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </ScrollViewer>
+                    </TabItem>
+                    <TabItem Header="Players">
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                            <DataGrid
+                                ItemsSource="{Binding GameLibrary.Players }"
+                                CanUserSortColumns="True"
+                                CanUserAddRows="True"
+                                CanUserDeleteRows="True"
+                                AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Binding="{Binding PlayerId}"
+                                        Header="PlayerId" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Name}"
+                                        Header="Name" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Nick}"
+                                        Header="Nick" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </ScrollViewer>
+                    </TabItem>
+                    <TabItem Header="Reviews">
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                            <DataGrid
+                                ItemsSource="{Binding GameLibrary.Reviews }"
+                                CanUserSortColumns="True"
+                                CanUserAddRows="True"
+                                CanUserDeleteRows="True"
+                                AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Binding="{Binding Title}"
+                                        Header="Title" />
+                                    <DataGridComboBoxColumn
+                                        SelectedValueBinding="{Binding PlayerId}">
+                                        <DataGridComboBoxColumn.ElementStyle>
+                                            <Style TargetType="{x:Type ComboBox}">
+                                                <Setter Property="ItemsSource"
+                                                        Value="{Binding Path=DataContext.PlayerIds, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                                            </Style>
+                                        </DataGridComboBoxColumn.ElementStyle>
+                                        <DataGridComboBoxColumn.EditingElementStyle>
+                                            <Style TargetType="{x:Type ComboBox}">
+                                                <Setter Property="ItemsSource"
+                                                        Value="{Binding Path=DataContext.PlayerIds, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                                            </Style>
+                                        </DataGridComboBoxColumn.EditingElementStyle>
+                                    </DataGridComboBoxColumn>
+                                    <DataGridComboBoxColumn
+                                        SelectedValueBinding="{Binding GameId}">
+                                        <DataGridComboBoxColumn.ElementStyle>
+                                            <Style TargetType="{x:Type ComboBox}">
+                                                <Setter Property="ItemsSource"
+                                                        Value="{Binding Path=DataContext.GameIds, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                                            </Style>
+                                        </DataGridComboBoxColumn.ElementStyle>
+                                        <DataGridComboBoxColumn.EditingElementStyle>
+                                            <Style TargetType="{x:Type ComboBox}">
+                                                <Setter Property="ItemsSource"
+                                                        Value="{Binding Path=DataContext.GameIds, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" />
+                                            </Style>
+                                        </DataGridComboBoxColumn.EditingElementStyle>
+                                    </DataGridComboBoxColumn>
+                                    <DataGridTextColumn
+                                        Binding="{Binding Score}"
+                                        Header="Score" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding Contents}"
+                                        Header="Contents" />
+                                </DataGrid.Columns>
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="BeginningEdit">
+                                        <i:InvokeCommandAction Command="{Binding UpdateIdsCommand}" />
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </DataGrid>
+                        </ScrollViewer>
+                    </TabItem>
+                    <TabItem Header="Authors">
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                            <DataGrid
+                                ItemsSource="{Binding GameLibrary.Authors }"
+                                CanUserSortColumns="True"
+                                CanUserAddRows="True"
+                                CanUserDeleteRows="True"
+                                AutoGenerateColumns="False">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Binding="{Binding FirstName}"
+                                        Header="First Name" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding LastName}"
+                                        Header="Last Name" />
+                                    <DataGridTextColumn
+                                        Binding="{Binding IndexNumber}"
+                                        Header="Index" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </ScrollViewer>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
